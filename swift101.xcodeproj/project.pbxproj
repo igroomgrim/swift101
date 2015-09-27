@@ -14,6 +14,7 @@
 		14A467211BB8676400EA2A12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A4671F1BB8676400EA2A12 /* LaunchScreen.storyboard */; };
 		14A4672C1BB8676400EA2A12 /* swift101Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A4672B1BB8676400EA2A12 /* swift101Tests.swift */; };
 		14A467371BB8676400EA2A12 /* swift101UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A467361BB8676400EA2A12 /* swift101UITests.swift */; };
+		14A467481BB8697800EA2A12 /* Day101_reduce_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A467471BB8697800EA2A12 /* Day101_reduce_extension.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		14A467321BB8676400EA2A12 /* swift101UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift101UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A467361BB8676400EA2A12 /* swift101UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift101UITests.swift; sourceTree = "<group>"; };
 		14A467381BB8676400EA2A12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14A467471BB8697800EA2A12 /* Day101_reduce_extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day101_reduce_extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				14A467441BB867BA00EA2A12 /* Storyboard */,
 				14A467461BB867DB00EA2A12 /* Assets */,
 				14A467181BB8676400EA2A12 /* ViewController.swift */,
+				14A467471BB8697800EA2A12 /* Day101_reduce_extension.swift */,
 			);
 			path = swift101;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14A467191BB8676400EA2A12 /* ViewController.swift in Sources */,
+				14A467481BB8697800EA2A12 /* Day101_reduce_extension.swift in Sources */,
 				14A467171BB8676400EA2A12 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

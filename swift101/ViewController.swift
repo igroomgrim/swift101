@@ -12,7 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Day 101
+        let day101 = Day101ReduceExtension()
+        day101.showTotalIncome()
+        day101.showTotalIncomeOldStyle()
     }
 
     override func didReceiveMemoryWarning() {
