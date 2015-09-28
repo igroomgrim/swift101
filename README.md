@@ -5,7 +5,7 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
 * **2015-09-28** - *Day 101*
   * Play with the reduce extension method from standard swift library.
 
-* **2015-09-29** - *Day 10*
+* **2015-09-29** - *Day 100*
   * Design patterns in swift - Object Template Pattern.
 
 ## Contact
