@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        day102()
+        day99()
     }
 
     override func didReceiveMemoryWarning() {
@@ -46,6 +46,19 @@ class ViewController: UIViewController {
             print("Book name : \(book.name)" )
         }
         
+    }
+    
+    // MARK: Day 99 - Prototype Pattern
+    func day99() {
+        let arsenal = Team(name: "Arsenal", league: "England", number: 10, stadium: "Emirates Stadium")
+        let barcelona = arsenal.copy() as! Team;
+        barcelona.name = "Barcelona"
+        barcelona.league = "Spain"
+        barcelona.number = 2
+        barcelona.stadium = "Camp Nou"
+        
+        arsenal.displayDetails()
+        barcelona.displayDetails()
     }
 }
 
