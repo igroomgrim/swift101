@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        day99()
+        day98()
     }
 
     override func didReceiveMemoryWarning() {
@@ -59,6 +59,29 @@ class ViewController: UIViewController {
         
         arsenal.displayDetails()
         barcelona.displayDetails()
+    }
+    
+    // MARK: Day 98 - Singleton Pattern for my birthday :D
+    func day98() {
+        var eq = AnakDataService.sharedInstance.eq
+        print("Anak EQ : \(eq)")
+        AnakDataService.sharedInstance.checkEQ()
+        AnakDataService.sharedInstance.increaseEQ()
+        AnakDataService.sharedInstance.increaseEQ()
+        AnakDataService.sharedInstance.checkEQ()
+        eq = AnakDataService.sharedInstance.eq
+        print("Anak EQ : \(eq)")
+        print("Money in bag : \(AnakDataService.sharedInstance.money)")
+        
+        externalTest()
+    }
+    
+    func externalTest() {
+        AnakDataService.sharedInstance.checkEQ()
+        AnakDataService.sharedInstance.decreaseEQ()
+        AnakDataService.sharedInstance.checkEQ()
+        AnakDataService.sharedInstance.giveMoneyForHim(100000000.0)
+        AnakDataService.sharedInstance.showMeTheMoney()
     }
 }
 
