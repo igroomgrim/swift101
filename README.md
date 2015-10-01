@@ -10,6 +10,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
 
 * **2015-09-30** - *Day 99*
   * Design patterns in swift - Prototype Pattern.
+  
+* **2015-10-02** - *Day 98*
+  * Design patterns in swift - Singleton Pattern for my birthday.
+  * Me is only one object :D
+  * Real word example. [CLLocationManager Singleton in Swift](https://github.com/igroomgrim/CLLocationManager-Singleton-in-Swift) 
 
 ## Contact
 
