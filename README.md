@@ -16,6 +16,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Me is only one object :D
   * Real word example. [CLLocationManager Singleton in Swift](https://github.com/igroomgrim/CLLocationManager-Singleton-in-Swift) 
 
+* **2015-10-03** - *Day 97*
+  * Swift Extension - New functionality to an existing class 
+  * Try on Double, String 
+  * Research from : [The Swift Programming Language(Extension)](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Extensions.html)
+  
 ## Contact
 
 Anak Mirasing
