@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        day98()
+        day97()
     }
 
     override func didReceiveMemoryWarning() {
@@ -82,6 +82,18 @@ class ViewController: UIViewController {
         AnakDataService.sharedInstance.checkEQ()
         AnakDataService.sharedInstance.giveMoneyForHim(100000000.0)
         AnakDataService.sharedInstance.showMeTheMoney()
+    }
+    
+    // MARKL Day 97 - Custom Extension (Double, String)
+    func day97() {
+        
+        let studentPoint: Double = 399.894515
+        print("Student Point : \(studentPoint.roundUpTwofractionDigits)")
+        
+        let toDate:String = getDateNow()
+        print("Date full format : \(toDate)")
+        print("Date only day : \(toDate.day)")
+        
     }
 }
 
