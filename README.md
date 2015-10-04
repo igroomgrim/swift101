@@ -21,6 +21,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Try on Double, String 
   * Research from : [The Swift Programming Language(Extension)](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Extensions.html)
   
+* **2015-10-04** - *Day 96*
+  * Swift Closures - Self-contained blocks of functionality
+  * Try on sort object 
+  * Research from : [The Swift Programming Language(Closures)](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Closures.html)
+  
 ## Contact
 
 Anak Mirasing
