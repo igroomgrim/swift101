@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        day97()
+        day96()
     }
 
     override func didReceiveMemoryWarning() {
@@ -84,7 +84,7 @@ class ViewController: UIViewController {
         AnakDataService.sharedInstance.showMeTheMoney()
     }
     
-    // MARKL Day 97 - Custom Extension (Double, String)
+    // MARK: Day 97 - Custom Extension (Double, String)
     func day97() {
         
         let studentPoint: Double = 399.894515
@@ -94,6 +94,23 @@ class ViewController: UIViewController {
         print("Date full format : \(toDate)")
         print("Date only day : \(toDate.day)")
         
+    }
+    
+    // MARK: Day 96 - Closures
+    func day96() {
+        let peter = Student(name: "Peter", midtermPoint: 75, finalPoint: 80)
+        let steve = Student(name: "Steve", midtermPoint: 68, finalPoint: 78)
+        let wenger = Student(name: "Arsene", midtermPoint: 85, finalPoint: 90)
+        
+        let students = [peter,steve,wenger]
+        
+        let sortStudentsByMidtermsPoint = students.sort({(s1: Student, s2: Student) -> Bool in
+            return s1.finalPoint > s2.finalPoint
+        })
+        
+        for student in sortStudentsByMidtermsPoint {
+            print("\(student.name) - \(student.finalPoint)")
+        }
     }
 }
 
