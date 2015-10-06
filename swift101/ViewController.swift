@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        day96()
+        day95()
     }
 
     override func didReceiveMemoryWarning() {
@@ -110,6 +110,30 @@ class ViewController: UIViewController {
         
         for student in sortStudentsByMidtermsPoint {
             print("\(student.name) - \(student.finalPoint)")
+        }
+    }
+    
+    // MARK: Day 95 - Enumerations
+    func day95() {
+        let someDay = Days.Wednesday
+        switch someDay {
+            case .Monday:
+                print("Hi! Monday")
+            case .Tuesday:
+                print("Hi! Tuesday")
+            case .Wednesday:
+                print("Hi! Wednesday")
+            case .Thursday:
+                print("Hi! Thursday")
+            case .Friday:
+                print("Hi! Friday")
+            case .Saturday:
+                print("Hi! Saturday")
+            case .Sunday:
+                print("Hi! Sunday")
+//          No need default becuz we have all day case
+//            default:
+//                print("It's not day")
         }
     }
 }
