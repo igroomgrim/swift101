@@ -25,7 +25,12 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Swift Closures - Self-contained blocks of functionality
   * Try on sort object 
   * Research from : [The Swift Programming Language(Closures)](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Closures.html)
-  
+
+* **2015-10-06** - *Day 95*
+  * Swift Enumerations - defines a common type for a group of related values and enables you to work with those values in a type-safe way
+  * Try on implicitly assigned raw values 
+  * Research from : [The Swift Programming Language(Enumerations)](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html)
+
 ## Contact
 
 Anak Mirasing
