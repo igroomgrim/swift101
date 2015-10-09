@@ -31,6 +31,12 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Try on implicitly assigned raw values 
   * Research from : [The Swift Programming Language(Enumerations)](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html)
 
+* **2015-10-09** - *Day 94*
+  * Swift Optional Chaining - process for querying and calling properties, methods, and subscripts on an optional that might currently be nil
+  * Optional Chaining as an Alternative to Forced Unwrapping 
+  * Research from : [The Swift Programming Language(Optional Chaining)](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/OptionalChaining.html)
+
+
 ## Contact
 
 Anak Mirasing
