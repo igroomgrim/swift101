@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        day95()
+        day94()
     }
 
     override func didReceiveMemoryWarning() {
@@ -134,6 +134,23 @@ class ViewController: UIViewController {
 //          No need default becuz we have all day case
 //            default:
 //                print("It's not day")
+        }
+    }
+    
+    // MARK: Day 94 - Optional Chaining
+    func day94() {
+        let coolComdominium = Address(buildingName: "BD-One", buildingNumber: "B0001", street: "Slow Life Road")
+        let person = Owner()
+        person.name = "Peter"
+        person.age = 26
+        person.address = coolComdominium
+        
+        let bobby = Dog()
+        bobby.name = "Bobby"
+        bobby.owner = person
+        
+        if let bobbyOwnerName = bobby.owner?.name {
+            print("owner name : \(bobbyOwnerName)")
         }
     }
 }
