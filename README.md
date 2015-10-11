@@ -36,6 +36,14 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Optional Chaining as an Alternative to Forced Unwrapping 
   * Research from : [The Swift Programming Language(Optional Chaining)](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/OptionalChaining.html)
 
+* **2015-10-11** - *Day 93*
+  * Swift Tuples - Tuples are anonymous structs that can be used in many ways, and one of them is to make returning multiple values from a function much easier.
+  * Unnamed Tuples/Named Tuples 
+  * Research from : 
+  * [The Swift Programming Language(Tuple Type)](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Types.html)
+  * [Raywenderlich](http://www.raywenderlich.com/115300/swift-2-tutorial-part-3-tuples-protocols-delegates-and-table-views)
+  * [Stackoverflow](http://stackoverflow.com/questions/26773189/why-to-use-tuples-when-we-can-use-array-to-return-multiple-values-in-swift)
+ 
 
 ## Contact
 
