@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		144B3F4F1BBF801C002B1C27 /* Day97_custom_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144B3F4E1BBF801C002B1C27 /* Day97_custom_extension.swift */; settings = {ASSET_TAGS = (); }; };
+		146F6B381BCA9773006ACC30 /* Day93_tuples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146F6B371BCA9773006ACC30 /* Day93_tuples.swift */; settings = {ASSET_TAGS = (); }; };
 		148B11791BC189FB001127AD /* Day96_closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B11781BC189FB001127AD /* Day96_closures.swift */; settings = {ASSET_TAGS = (); }; };
 		14A467171BB8676400EA2A12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A467161BB8676400EA2A12 /* AppDelegate.swift */; };
 		14A467191BB8676400EA2A12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A467181BB8676400EA2A12 /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		144B3F4E1BBF801C002B1C27 /* Day97_custom_extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day97_custom_extension.swift; sourceTree = "<group>"; };
+		146F6B371BCA9773006ACC30 /* Day93_tuples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day93_tuples.swift; sourceTree = "<group>"; };
 		148B11781BC189FB001127AD /* Day96_closures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day96_closures.swift; sourceTree = "<group>"; };
 		14A467131BB8676400EA2A12 /* swift101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift101.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A467161BB8676400EA2A12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				148B11781BC189FB001127AD /* Day96_closures.swift */,
 				14D07A491BC4426E00821625 /* Day95_enumerations.swift */,
 				14F2D5811BC8249700E1D6CF /* Day94_optional_chaining.swift */,
+				146F6B371BCA9773006ACC30 /* Day93_tuples.swift */,
 			);
 			path = swift101;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14F2D5821BC8249700E1D6CF /* Day94_optional_chaining.swift in Sources */,
+				146F6B381BCA9773006ACC30 /* Day93_tuples.swift in Sources */,
 				14CF0A091BB9A7CA00AAA350 /* Day100_object_template_pattern.swift in Sources */,
 				14A467191BB8676400EA2A12 /* ViewController.swift in Sources */,
 				14A467481BB8697800EA2A12 /* Day101_reduce_extension.swift in Sources */,

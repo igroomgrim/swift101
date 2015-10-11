@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        day94()
+        day93()
     }
 
     override func didReceiveMemoryWarning() {
@@ -152,6 +152,24 @@ class ViewController: UIViewController {
         if let bobbyOwnerName = bobby.owner?.name {
             print("owner name : \(bobbyOwnerName)")
         }
+    }
+    
+    // MARK: Day 93 - Tuples
+    func day93() {
+        // Named Tuples
+        let ninja1 = NinjaTurtle(name: "Leonardo", age: 24)
+        print(ninja1.description!.0)
+        print(ninja1.description!.1)
+        
+        let ninja2 = NinjaTurtle(name: "Donatello", age: 25)
+        print(ninja2.description!.0)
+        print(ninja2.description!.1)
+        
+        // Unnamed Tuples
+        let rat:(String, String, Int) = ("Rat Sensai", "Ninjutsu", 70)
+        print(rat.0)
+        print(rat.1)
+        print(rat.2)
     }
 }
 
