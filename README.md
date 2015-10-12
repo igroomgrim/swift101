@@ -44,6 +44,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * [Raywenderlich](http://www.raywenderlich.com/115300/swift-2-tutorial-part-3-tuples-protocols-delegates-and-table-views)
   * [Stackoverflow](http://stackoverflow.com/questions/26773189/why-to-use-tuples-when-we-can-use-array-to-return-multiple-values-in-swift)
  
+* **2015-10-12** - *Day 92*
+  * Xcode 7 Playground - Import your class into XCODE 7 Playground
+  * Try import your custom class to test in playground
+  * Resources : With the resource bundle, you can easily add images, sounds, and other data to your playground using the project navigator.
+  * Research from : [New Features in Xcode 7](https://developer.apple.com/library/prerelease/ios/documentation/DeveloperTools/Conceptual/WhatsNewXcode/Articles/xcode_7_0.html)
 
 ## Contact
 
