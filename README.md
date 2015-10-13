@@ -50,6 +50,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Resources : With the resource bundle, you can easily add images, sounds, and other data to your playground using the project navigator.
   * Research from : [New Features in Xcode 7](https://developer.apple.com/library/prerelease/ios/documentation/DeveloperTools/Conceptual/WhatsNewXcode/Articles/xcode_7_0.html)
 
+* **2015-10-13** - *Day 91*
+  * Strings in Swift 2 (Collection of Character Values)
+  * Natural to model a string as a collection of characters.
+  * Research from : [Strings in Swift 2](https://developer.apple.com/swift/blog/?id=30)
+
 ## Contact
 
 Anak Mirasing
