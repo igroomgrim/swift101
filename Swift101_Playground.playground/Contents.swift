@@ -24,3 +24,17 @@ print(string.characters.last!)
 print(string.characters.first!)
 
 string.characters.contains("S")
+
+// Day 90 - UIKit on playground
+let maView = MaView(frame: CGRect(x: 0, y: 0, width: 20, height: 20))
+maView.backgroundColor = UIColor.blueColor()
+maView
+
+let testButton = UIButton(frame: CGRect(x: 0, y: 0, width: 80, height: 44))
+testButton.backgroundColor = UIColor.greenColor()
+testButton
+
+let maButton = MaButton(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
+maButton.backgroundColor = UIColor.greenColor()
+maButton.layer.cornerRadius = 4
+maButton
