@@ -55,6 +55,9 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Natural to model a string as a collection of characters.
   * Research from : [Strings in Swift 2](https://developer.apple.com/swift/blog/?id=30)
 
+* **2015-10-14** - *Day 90*
+  * UIKit on playground
+
 ## Contact
 
 Anak Mirasing
