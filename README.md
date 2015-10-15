@@ -58,6 +58,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
 * **2015-10-14** - *Day 90*
   * UIKit on playground
 
+* **2015-10-15** - *Day 89*
+  * Sets in Swift 2
+  * Stores distinct values of the same type in a collection with no defined ordering.
+  * Research from : [Sets in Swift 2](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/CollectionTypes.html)
+
 ## Contact
 
 Anak Mirasing
