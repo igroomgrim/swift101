@@ -63,6 +63,13 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Stores distinct values of the same type in a collection with no defined ordering.
   * Research from : [Sets in Swift 2](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/CollectionTypes.html)
 
+* **2015-10-16** - *Day 88*
+  * Realm + Swift
+  * Mobile database instead of core data in iOS.
+  * Research from : [Realm Swift 0.96.0](https://realm.io/docs/swift/latest/)
+  * Example project on github : [TA-DA (To-Do list app)](https://github.com/igroomgrim/ta-da)
+
+
 ## Contact
 
 Anak Mirasing
