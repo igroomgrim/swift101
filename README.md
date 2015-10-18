@@ -64,11 +64,16 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Research from : [Sets in Swift 2](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/CollectionTypes.html)
 
 * **2015-10-16** - *Day 88*
-  * Realm + Swift
+  * Realm + Swift (Part.1)
   * Mobile database instead of core data in iOS.
   * Research from : [Realm Swift 0.96.0](https://realm.io/docs/swift/latest/)
   * Example project on github : [TA-DA (To-Do list app)](https://github.com/igroomgrim/ta-da)
 
+* **2015-10-18** - *Day 87*
+  * Realm + Swift (Part.2)
+  * Add object to database and show in tableview.
+  * Research from : [Realm Swift 0.96.0](https://realm.io/docs/swift/latest/)
+  * Example project on github : [TA-DA (To-Do list app)](https://github.com/igroomgrim/ta-da)
 
 ## Contact
 
