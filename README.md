@@ -75,6 +75,12 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Research from : [Realm Swift 0.96.0](https://realm.io/docs/swift/latest/)
   * Example project on github : [TA-DA (To-Do list app)](https://github.com/igroomgrim/ta-da)
 
+* **2015-10-19** - *Day 86*
+  * Realm + Swift (Part.3)
+  * Update/Edit object and show status in tableview.
+  * Research from : [Realm Swift - Updating objects](https://realm.io/docs/swift/latest/#updating-objects)
+  * Example project on github : [TA-DA (To-Do list app)](https://github.com/igroomgrim/ta-da)
+
 ## Contact
 
 Anak Mirasing
