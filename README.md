@@ -81,6 +81,12 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Research from : [Realm Swift - Updating objects](https://realm.io/docs/swift/latest/#updating-objects)
   * Example project on github : [TA-DA (To-Do list app)](https://github.com/igroomgrim/ta-da)
 
+* **2015-10-20** - *Day 85*
+  * Realm + Swift (Part.4)
+  * Filtering object with NSPredicate.
+  * Research from : [Realm Swift - Filtering objects](https://realm.io/docs/swift/latest/#filtering)
+  * Example project on github : [TA-DA (To-Do list app)](https://github.com/igroomgrim/ta-da)
+
 ## Contact
 
 Anak Mirasing
