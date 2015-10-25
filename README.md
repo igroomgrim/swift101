@@ -93,6 +93,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Research from : [Realm Swift - Sorting objects](https://realm.io/docs/swift/latest/#sorting)
   * Example project on github : [TA-DA (To-Do list app)](https://github.com/igroomgrim/ta-da)
 
+* **2015-10-(23-24)** - *Day 83 - Day 82*
+  * I went to The 1st iOS Conference in Singapore.  It was very nice all sessions.
+  * I'll update all of detail to my blog again in coming soon
+  * ![alt tag](https://pbs.twimg.com/media/CP5NdbUUwAA1ZfS.png:large)
+  
 ## Contact
 
 Anak Mirasing
