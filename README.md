@@ -97,6 +97,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * I went to The 1st iOS Conference in Singapore.  It was very nice all sessions.
   * I'll update all of detail to my blog again in coming soon
   * ![alt tag](https://pbs.twimg.com/media/CP5NdbUUwAA1ZfS.png:large)
+
+* **2015-10-27** - *Day 81*
+  * Basic animation in Swift
+  * Try to use animateWithDuration function to control UIView transition
   
 ## Contact
 
