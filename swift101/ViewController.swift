@@ -12,8 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
         
-        day93()
+        day81()
     }
 
     override func didReceiveMemoryWarning() {
@@ -171,5 +175,24 @@ class ViewController: UIViewController {
         print(rat.1)
         print(rat.2)
     }
+    
+    // MARK: Day 81 - Basic Animation
+    @IBOutlet weak var blueView: UIView!
+    func day81() {
+//        UIView.animateWithDuration(1.0, animations: {
+//            self.blueView.center.y += self.view.bounds.width
+//        })
+//        
+//        UIView.animateWithDuration(0.5, delay: 0.3, options: [], animations: {
+//            self.blueView.center.y += self.view.bounds.width
+//            }, completion: nil)
+        
+        UIView.animateWithDuration(0.5, delay: 0.3, options: [.CurveEaseIn], animations: { () -> Void in
+            self.blueView.center.y += self.view.bounds.width
+        }) { (Bool) -> Void in
+            print("Animated")
+        }
+    }
+    
 }
 
