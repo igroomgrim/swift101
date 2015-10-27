@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
-        day82()
+        day80()
     }
 
     override func didReceiveMemoryWarning() {
@@ -194,8 +194,8 @@ class ViewController: UIViewController {
         }
     }
     
-    // MARK: Day 82 - Basic Spring Animations 
-    func day82() {
+    // MARK: Day 80 - Basic Spring Animations
+    func day80() {
         
         UIView.animateWithDuration(1, delay: 0.5, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.2, options: [], animations: { () -> Void in
             
