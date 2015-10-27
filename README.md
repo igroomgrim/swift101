@@ -102,6 +102,12 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Basic animation in Swift
   * Try to use animateWithDuration function to control UIView transition
   
+* **2015-10-28** - *Day 80*
+  * Basic Spring Animations
+  * Try to use animateWithDuration using spring with damping style
+  * **usingSpringWithDamping** : Controls amount of damping applied to the animation. Values closer to 0.0 create a bouncier animation, while values closer to 1.0 create a stiff-looking effect.
+  * **initialSpringVelocity** : Controls the initial velocity of the animation. Bigger and smaller values will cause the animation to have more or less velocity.
+
 ## Contact
 
 Anak Mirasing
