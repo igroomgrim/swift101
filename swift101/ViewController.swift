@@ -12,12 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        
-        day80()
+        day79()
     }
 
     override func didReceiveMemoryWarning() {
@@ -207,6 +207,25 @@ class ViewController: UIViewController {
             
         }
         
+    }
+    
+    // MARK: Day 79 - Animation Transitions
+    func day79() {
+        var containerView: UIView?
+        containerView = UIView(frame: view.bounds)
+        containerView?.backgroundColor = UIColor.grayColor()
+        view.addSubview(containerView!)
+        
+        let animView = UIView(frame: CGRectMake(0,0,80,80))
+        animView.center = containerView!.center
+        animView.backgroundColor = UIColor.whiteColor()
+        
+        UIView.transitionWithView(containerView!, duration: 3, options: [.CurveEaseInOut, .TransitionFlipFromTop], animations: {
+            containerView!.addSubview(animView)
+        }, completion: {finished in
+            print("transitionWithView : finished")
+        })
+
     }
     
 }
