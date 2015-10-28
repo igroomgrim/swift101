@@ -108,6 +108,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * **usingSpringWithDamping** : Controls amount of damping applied to the animation. Values closer to 0.0 create a bouncier animation, while values closer to 1.0 create a stiff-looking effect.
   * **initialSpringVelocity** : Controls the initial velocity of the animation. Bigger and smaller values will cause the animation to have more or less velocity.
 
+* **2015-10-29** - *Day 79*
+  * Animation Transitions
+  * Try to adding a new view, to animate the addition of a new view on the screen.
+  * **transitionWithView** : new view add to it as subviews appear while animation run.
+
 ## Contact
 
 Anak Mirasing
