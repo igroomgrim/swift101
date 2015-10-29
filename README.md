@@ -113,6 +113,12 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Try to adding a new view, to animate the addition of a new view on the screen.
   * **transitionWithView** : new view add to it as subviews appear while animation run.
 
+* **2015-10-30** - *Day 78*
+  * Animation Transitions (Hide/Show/Fade-in/Fade-Out)
+  * Try to hiding/fade-in/out a new view, to animate the addition of a new view on the screen.
+  * use property view.hidden = true/false for show/hidden view
+  * use property view.alpha = 0 to 1 for control transparency 0(invisible), 1(visible)
+
 ## Contact
 
 Anak Mirasing
