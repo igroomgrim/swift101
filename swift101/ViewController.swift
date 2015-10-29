@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        day79()
+        day78()
     }
 
     override func didReceiveMemoryWarning() {
@@ -228,5 +228,36 @@ class ViewController: UIViewController {
 
     }
     
+    // MARK: Day 78 - Animation Transitions (Hide/Show/Fade-in/Fade-Out)
+    func day78() {
+        var containerView: UIView?
+        containerView = UIView(frame: view.bounds)
+        containerView?.backgroundColor = UIColor.grayColor()
+        view.addSubview(containerView!)
+        
+        let animView = UIView(frame: CGRectMake(0,0,80,80))
+        animView.center = containerView!.center
+        animView.backgroundColor = UIColor.whiteColor()
+        
+        UIView.transitionWithView(containerView!, duration: 3, options: [.CurveEaseInOut, .TransitionFlipFromTop], animations: {
+            containerView!.addSubview(animView)
+            
+            }, completion: {finished in
+                
+                UIView.transitionWithView(animView, duration: 3.0, options: [], animations: {
+                    // Hidden View use .hidden
+                    // animView.hidden = true
+                    
+                    // alpha transparency use .alpha 0 to 1
+                    animView.alpha = 0
+                    
+                    }, completion: {finished in
+                        print("Transitions (Hide/Show/Fade-in/Fade-Out) : finished")
+                })
+        })
+        
+       
+        
+    }
 }
 
