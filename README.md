@@ -119,6 +119,12 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * use property view.hidden = true/false for show/hidden view
   * use property view.alpha = 0 to 1 for control transparency 0(invisible), 1(visible)
 
+* **2015-10-31** - *Day 77*
+  * Animation with CGAffineTransformMakeScale and CGAffineTransformMakeTranslation
+  * CGAffineTransformMakeScale : Returns an affine transformation matrix constructed from **scaling** values you provide
+  * CGAffineTransformMakeTranslation : Returns an affine transformation matrix constructed from **translation** values you provide.
+  * Research from : [CGAffineTransform Reference](https://developer.apple.com/library/prerelease/ios/documentation/GraphicsImaging/Reference/CGAffineTransform/index.html)
+
 ## Contact
 
 Anak Mirasing
