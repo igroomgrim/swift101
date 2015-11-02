@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        day76()
+        day75()
     }
 
     override func didReceiveMemoryWarning() {
@@ -292,6 +292,25 @@ class ViewController: UIViewController {
 //            animView.transform = CGAffineTransformRotate(CGAffineTransformMakeScale(1.5, 1.5), 45)
 //            animView.transform = CGAffineTransformInvert(CGAffineTransformMakeScale(1.5, 1.5))
             animView.transform = CGAffineTransformInvert(CGAffineTransformRotate(CGAffineTransformMakeScale(1.5, 1.5), 45))
+            }, completion: {_ in
+                
+                print("Transitions : finished")
+                //            animView.transform = CGAffineTransformIdentity
+                
+        })
+    }
+    
+    // MARK: Day 75 - Animation with CGPointApplyAffineTransform
+    func day75() {
+        let animView = UIView(frame: CGRectMake(0,0,80,80))
+        animView.center = view.center
+        animView.backgroundColor = UIColor.blueColor()
+        view.addSubview(animView)
+        
+        UIView.animateWithDuration(3.0, delay: 0.0, options: .CurveEaseOut, animations: {
+            
+            animView.center = CGPointApplyAffineTransform(CGPointMake(50, 50), CGAffineTransformMakeScale(1.5, 1.5))
+            
             }, completion: {_ in
                 
                 print("Transitions : finished")
