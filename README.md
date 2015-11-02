@@ -125,12 +125,17 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * CGAffineTransformMakeTranslation : Returns an affine transformation matrix constructed from **translation** values you provide.
   * Research from : [CGAffineTransform Reference](https://developer.apple.com/library/prerelease/ios/documentation/GraphicsImaging/Reference/CGAffineTransform/index.html)
 
-* **2015-10-31** - *Day 76*
+* **2015-11-01** - *Day 76*
   * Animation with CGAffineTransformRotate and CGAffineTransformInvert
   * CGAffineTransformRotate : Returns an affine transformation matrix constructed by **rotating** an existing affine transform.
   * Returns an affine transformation matrix constructed by **inverting** an existing affine transform.
   * Research from : [CGAffineTransform Reference](https://developer.apple.com/library/prerelease/ios/documentation/GraphicsImaging/Reference/CGAffineTransform/index.html)
 
+* **2015-11-02** - *Day 75*
+  * Animation with CGPointApplyAffineTransform
+  * CGPointApplyAffineTransform : Returns the point resulting from an affine transformation of an existing point.
+  * Research from : [CGAffineTransform Reference](https://developer.apple.com/library/prerelease/ios/documentation/GraphicsImaging/Reference/CGAffineTransform/index.html)
+  
 ## Contact
 
 Anak Mirasing
