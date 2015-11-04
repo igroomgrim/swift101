@@ -141,6 +141,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * CGSizeApplyAffineTransform : Returns the height and width resulting from a transformation of an existing height and width.
   * Research from : [CGAffineTransform Reference](https://developer.apple.com/library/prerelease/ios/documentation/GraphicsImaging/Reference/CGAffineTransform/index.html)
 
+* **2015-11-04** - *Day 73*
+  * Animation with CGRectApplyAffineTransform
+  * CGRectApplyAffineTransform : Applies an affine transform to a rectangle.
+  * Research from : [CGAffineTransform Reference](https://developer.apple.com/library/prerelease/ios/documentation/GraphicsImaging/Reference/CGAffineTransform/index.html)
+
 ## Contact
 
 Anak Mirasing
