@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        day73()
+        day72()
     }
 
     override func didReceiveMemoryWarning() {
@@ -356,6 +356,26 @@ class ViewController: UIViewController {
                 
         })
 
+    }
+    
+    // MARK: Day 72 - Evaluating Affine Transforms : CGAffineTransformIsIdentity
+    func day72() {
+        let animView = UIView(frame: CGRectMake(0,0,80,80))
+        animView.center = view.center
+        animView.backgroundColor = UIColor.blueColor()
+        view.addSubview(animView)
+        
+        // Try to delete comment this line for see a different result
+//        animView.transform = CGAffineTransformMakeScale(1.5, 1.5)
+        
+        // Checks whether an affine transform is the identity transform.
+        if (CGAffineTransformIsIdentity(animView.transform)) {
+            print("YES")
+            animView.transform = CGAffineTransformMakeScale(1.5, 1.5)
+        } else {
+            print("NO")
+            animView.transform = CGAffineTransformIdentity;
+        }
     }
     
 }
