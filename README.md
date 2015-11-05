@@ -146,6 +146,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * CGRectApplyAffineTransform : Applies an affine transform to a rectangle.
   * Research from : [CGAffineTransform Reference](https://developer.apple.com/library/prerelease/ios/documentation/GraphicsImaging/Reference/CGAffineTransform/index.html)
 
+* **2015-11-05** - *Day 72*
+  * Evaluating Affine Transforms : CGAffineTransformIsIdentity
+  * CGAffineTransformIsIdentity : Checks whether an affine transform is the identity transform.
+  * Research from : [CGAffineTransform Reference](https://developer.apple.com/library/prerelease/ios/documentation/GraphicsImaging/Reference/CGAffineTransform/index.html)
+
 ## Contact
 
 Anak Mirasing
