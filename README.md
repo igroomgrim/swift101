@@ -151,6 +151,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * CGAffineTransformIsIdentity : Checks whether an affine transform is the identity transform.
   * Research from : [CGAffineTransform Reference](https://developer.apple.com/library/prerelease/ios/documentation/GraphicsImaging/Reference/CGAffineTransform/index.html)
 
+* **2015-11-06** - *Day 71*
+  * Evaluating Affine Transforms : CGAffineTransformEqualToTransform
+  * CGAffineTransformEqualToTransform : Checks whether two affine transforms are equal.
+  * Research from : [CGAffineTransform Reference](https://developer.apple.com/library/prerelease/ios/documentation/GraphicsImaging/Reference/CGAffineTransform/index.html)
+
 ## Contact
 
 Anak Mirasing
