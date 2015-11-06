@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        day72()
+        day71()
     }
 
     override func didReceiveMemoryWarning() {
@@ -376,6 +376,37 @@ class ViewController: UIViewController {
             print("NO")
             animView.transform = CGAffineTransformIdentity;
         }
+    }
+    
+    // MARK: Day 71 - Evaluating Affine Transforms : CGAffineTransformEqualToTransform
+    func day71() {
+        let viewOne = UIView(frame: CGRectMake(0,0,80,80))
+        viewOne.backgroundColor = UIColor.blueColor()
+        view.addSubview(viewOne)
+        
+        let viewTwo = UIView(frame: CGRectMake(100,0,80,80))
+        viewTwo.backgroundColor = UIColor.redColor()
+        view.addSubview(viewTwo)
+        
+        UIView.animateWithDuration(3.0, delay: 0.0, options: .CurveEaseOut, animations: {
+            
+            // Try to to change 50 to other value for see a differnet result
+            viewOne.transform = CGAffineTransformMakeTranslation(0, 50)
+            viewTwo.transform = CGAffineTransformMakeTranslation(0, 50)
+            
+            }, completion: {_ in
+                
+                print("Transitions : finished")
+                
+        })
+        
+        // Checks whether two affine transforms are equal.
+        if (CGAffineTransformEqualToTransform(viewOne.transform, viewTwo.transform)) {
+            print("Equal")
+        } else {
+            print("Not Equal")
+        }
+        
     }
     
 }
