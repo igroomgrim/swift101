@@ -156,6 +156,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * CGAffineTransformEqualToTransform : Checks whether two affine transforms are equal.
   * Research from : [CGAffineTransform Reference](https://developer.apple.com/library/prerelease/ios/documentation/GraphicsImaging/Reference/CGAffineTransform/index.html)
 
+* **2015-11-07** - *Day 70*
+  * ReactiveCocoa with Swift 2.0 : Play with Signal + UITextField
+  * Try to get signal from UITextField by rac_textSignal, So nice! now we don't need UITextField Delegate becuase we have a useful signal.
+  * Example project on github : [ReactiveCocoa with Swift 2.0](https://github.com/igroomgrim/ReactiveCocoaWithSwift)
+
 ## Contact
 
 Anak Mirasing
