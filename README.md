@@ -161,6 +161,12 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Try to get signal from UITextField by rac_textSignal, So nice! now we don't need UITextField Delegate becuase we have a useful signal.
   * Example project on github : [ReactiveCocoa with Swift 2.0](https://github.com/igroomgrim/ReactiveCocoaWithSwift)
 
+* **2015-11-08** - *Day 69*
+  * ReactiveCocoa with Swift 2.0 : Play with Signal + UITextField + Filtering
+  * Try to add filter operator is used to only include values in an event stream that satisfy a predicate.
+  * In this case i'm try is search string has more than 3 character, filter operator will alow and go to startWithNext.
+  * Example project on github : [ReactiveCocoa with Swift 2.0](https://github.com/igroomgrim/ReactiveCocoaWithSwift)
+
 ## Contact
 
 Anak Mirasing
