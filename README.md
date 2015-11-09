@@ -167,6 +167,12 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * In this case i'm try is search string has more than 3 character, filter operator will alow and go to startWithNext.
   * Example project on github : [ReactiveCocoa with Swift 2.0](https://github.com/igroomgrim/ReactiveCocoaWithSwift)
 
+* **2015-11-09** - *Day 68*
+  * ReactiveCocoa with Swift 2.0 : Play with Signal + UIButton + handle action
+  * Try to add methods from ReactiveCocoa adds to UIKit, rac_signalForControlEvents.
+  * And add some feature with doNext operator, like when user pressed UIButton button will disable and change alpha.
+  * Example project on github : [ReactiveCocoa with Swift 2.0](https://github.com/igroomgrim/ReactiveCocoaWithSwift)
+
 ## Contact
 
 Anak Mirasing
