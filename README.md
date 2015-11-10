@@ -173,6 +173,13 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * And add some feature with doNext operator, like when user pressed UIButton button will disable and change alpha.
   * Example project on github : [ReactiveCocoa with Swift 2.0](https://github.com/igroomgrim/ReactiveCocoaWithSwift)
 
+* **2015-11-10** - *Day 67*
+  * Control Flow : Loops - loops to perform a task multiple times
+  * for-loop
+  * while-loop
+  * repeat-loop
+  * Research from : [Control flow in Swift](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ControlFlow.html)
+
 ## Contact
 
 Anak Mirasing
