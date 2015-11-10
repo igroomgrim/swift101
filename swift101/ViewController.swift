@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        day71()
+        day67()
     }
 
     override func didReceiveMemoryWarning() {
@@ -406,6 +406,35 @@ class ViewController: UIViewController {
         } else {
             print("Not Equal")
         }
+        
+    }
+    
+    // MARK: Day 67 - Control Flow : Loops
+    func day67() {
+        // For Loops
+        // for-in
+        for index in 1...10 {
+            print("index : \(index)")
+        }
+        
+        let students = ["Peter", "James", "Steve"]
+        for var index = 0; index < students.count; index++ {
+            print("student : \(students[index])")
+        }
+        
+        // While Loops
+        var index = 0
+        while index <= 10 {
+            print("while : \(index)")
+            index = index + 1
+        }
+        
+        // Repeat Loops
+        index = 0
+        repeat {
+            print("repeat : \(index)")
+            index = index + 1
+        } while index < 10
         
     }
     
