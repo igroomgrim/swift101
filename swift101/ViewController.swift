@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        day67()
+        day66()
     }
 
     override func didReceiveMemoryWarning() {
@@ -435,6 +435,58 @@ class ViewController: UIViewController {
             print("repeat : \(index)")
             index = index + 1
         } while index < 10
+        
+    }
+    
+    // MARK: Day66 - Control Flow : if, if-else, switch, interval matching
+    func day66() {
+        // if
+        var finalScore = 85
+        if finalScore >= 80 {
+            print("You're awesome student!")
+        }
+        
+        // if-else
+        finalScore = 99
+        if finalScore >= 100 {
+            print("You're SUPERMAN!")
+        } else {
+            print("Welcome to the real world :D")
+        }
+        
+        // switch
+        let gradeCharacter = "A"
+        switch gradeCharacter {
+            case "A":
+                print("Awesome")
+            case "B":
+                print("Great")
+            case "C":
+                print("Cat")
+            case "D":
+                print("D-Dog")
+            case "F":
+                print("FAIL!")
+            default:
+                print("INVISIBLE GRADE")
+        }
+        
+        // interval matching
+        finalScore = 66
+        switch finalScore {
+            case 80..<100:
+                print("Awesome")
+            case 60..<80:
+                print("Great")
+            case 40..<60:
+                print("Cat")
+            case 20..<40:
+                print("D-Dog")
+            case 0..<20:
+                print("FAIL!")
+            default:
+                print("INVISIBLE GRADE")
+        }
         
     }
     
