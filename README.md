@@ -180,6 +180,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * repeat-loop
   * Research from : [Control flow in Swift](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ControlFlow.html)
 
+* **2015-11-11** - *Day 66*
+  * Control Flow : if, if-else, switch, interval matching
+  * Conditional Statements : It is often useful to execute different pieces of code based on certain conditions.
+  * Research from : [Control flow in Swift](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ControlFlow.html)
+
 ## Contact
 
 Anak Mirasing
