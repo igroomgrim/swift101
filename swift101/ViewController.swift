@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        day66()
+        day65()
     }
 
     override func didReceiveMemoryWarning() {
@@ -488,6 +488,45 @@ class ViewController: UIViewController {
                 print("INVISIBLE GRADE")
         }
         
+    }
+    
+    // MARK: Day65 - Defining and Calling Functions
+    func day65() {
+        
+        // Without parameter & Without return
+        func printIOSVersion() {
+            let os = NSProcessInfo().operatingSystemVersion
+            print(os)
+        }
+        printIOSVersion()
+        
+        // Without parameter & return value
+        func getToday() -> String {
+            let today = NSDate()
+            let formatter = NSDateFormatter()
+            formatter.dateFormat = "yyyy-MM-dd"
+            
+            return formatter.stringFromDate(today)
+        }
+        print(getToday())
+        
+        // With parameter & Without return
+        func sayHello(name: String) {
+            print("Hello : \(name)")
+        }
+        sayHello("Peter")
+        
+        // With parameter & With return
+        func sayHi(name: String) -> String {
+            return "Hi : "+name
+        }
+        print(sayHi("peter"))
+        
+        // With multiple parameters
+        func sayHiMyPet(cat: String, dog: String) {
+            print("My cat : \(cat) and \(dog) dog")
+        }
+        sayHiMyPet("Peepo", dog: "Satang")
     }
     
 }
