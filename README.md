@@ -185,6 +185,15 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Conditional Statements : It is often useful to execute different pieces of code based on certain conditions.
   * Research from : [Control flow in Swift](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ControlFlow.html)
 
+* **2015-11-12** - *Day 65*
+  * Defining and Calling Functions
+  * Without parameter & Without return.
+  * Without parameter & return value.
+  * With parameter & Without return.
+  * With parameter & With return.
+  * With multiple parameters.
+  * Research from : [Defining and Calling Functions](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html)
+
 ## Contact
 
 Anak Mirasing
