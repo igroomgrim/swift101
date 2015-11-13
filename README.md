@@ -194,6 +194,13 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * With multiple parameters.
   * Research from : [Defining and Calling Functions](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html)
 
+* **2015-11-13** - *Day 64*
+  * UITest in Swift
+  * Introduces UI testing as a major new feature of the existing XCTest framework.
+  * Step 1 : Open the Test Navigator
+  * Step 2 : Click run button on testLoginForm()
+  * Research from : [Testing-with-xcode-7-and-swift-2](http://code.tutsplus.com/tutorials/advances-in-testing-with-xcode-7-and-swift-2--cms-24469)
+
 ## Contact
 
 Anak Mirasing
