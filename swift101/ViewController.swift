@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        day65()
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -527,6 +527,25 @@ class ViewController: UIViewController {
             print("My cat : \(cat) and \(dog) dog")
         }
         sayHiMyPet("Peepo", dog: "Satang")
+    }
+    
+    // MARK: Day64 - UITest
+    @IBOutlet weak var usernameTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var loginButton: UIButton!
+    
+    func day64() {
+        if let username = usernameTextField.text {
+            print("username : \(username)")
+        }
+        
+        if let password = passwordTextField.text {
+            print("password : \(password)")
+        }
+    }
+    
+    @IBAction func loginButtonTapped(sender: AnyObject) {
+        day64()
     }
     
 }

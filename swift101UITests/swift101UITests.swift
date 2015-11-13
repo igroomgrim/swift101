@@ -28,9 +28,21 @@ class swift101UITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testLoginForm() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let app = XCUIApplication()
+        let usernameTextField = app.textFields["username"]
+        usernameTextField.tap()
+        usernameTextField.typeText("myusername")
+        
+        let passwordTextField = app.textFields["password"]
+        passwordTextField.tap()
+        passwordTextField.typeText("mypassword")
+        
+        app.buttons["LOGIN"].tap()
+        
     }
     
 }
