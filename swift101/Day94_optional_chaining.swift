@@ -28,4 +28,8 @@ class Address {
         self.buildingNumber = buildingNumber
         self.street = street
     }
+
+    func getFullDetail() -> String {
+        return buildingName! + ", " + buildingNumber! + ", " + street!
+    }
 }

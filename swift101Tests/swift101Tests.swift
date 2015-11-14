@@ -33,4 +33,12 @@ class swift101Tests: XCTestCase {
         }
     }
     
+    // Day 63 - XCTest
+    func testGetAddressFullDetail() {
+        let myHome = Address(buildingName: "BS1112", buildingNumber: "1112", street: "BKK-ROAD")
+        let fullDetailCheck = "BS1112, 1112, BKK-ROAD"
+        // Try to check string in fullDetailCheck to other and see new testing result
+        XCTAssertEqual(myHome.getFullDetail(), fullDetailCheck, "Full Address should be equal to \"BS1112, 1112, BKK-ROAD\"")
+    }
+    
 }
