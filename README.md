@@ -201,6 +201,13 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Step 2 : Click run button on testLoginForm()
   * Research from : [Testing-with-xcode-7-and-swift-2](http://code.tutsplus.com/tutorials/advances-in-testing-with-xcode-7-and-swift-2--cms-24469)
 
+* **2015-11-14** - *Day 63*
+  * XCTest in Swift
+  * Introduces XCTAssertEqual feature of the existing XCTest framework.
+  * Step 1 : Open the Test Navigator
+  * Step 2 : Click run button on testGetAddressFullDetail()
+  * Research from : [Testing-with-xcode-7-and-swift-2](http://code.tutsplus.com/tutorials/advances-in-testing-with-xcode-7-and-swift-2--cms-24469)
+
 ## Contact
 
 Anak Mirasing
