@@ -57,17 +57,27 @@
                                     <action selector="loginButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0eY-1x-mKh"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day62" translatesAutoresizingMaskIntoConstraints="NO" id="wFW-hH-fqC">
+                                <rect key="frame" x="180" y="278" width="240" height="128"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="sTZ-oV-7qL"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="uGL-H8-NTk" firstAttribute="width" secondItem="9aK-Re-nyR" secondAttribute="width" id="6eI-no-REI"/>
+                            <constraint firstItem="wFW-hH-fqC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9fg-QY-oCo"/>
                             <constraint firstItem="uGL-H8-NTk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GSz-Jk-NJ8"/>
+                            <constraint firstItem="wFW-hH-fqC" firstAttribute="top" secondItem="sbm-MH-wui" secondAttribute="bottom" constant="8" id="Hbc-tP-low"/>
                             <constraint firstItem="sbm-MH-wui" firstAttribute="top" secondItem="uGL-H8-NTk" secondAttribute="bottom" constant="8" id="J0h-r9-Pba"/>
                             <constraint firstItem="9aK-Re-nyR" firstAttribute="width" secondItem="2kk-7j-g7H" secondAttribute="width" id="JKh-LZ-OIH"/>
                             <constraint firstItem="2kk-7j-g7H" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="KJg-gC-ooV"/>
                             <constraint firstItem="uGL-H8-NTk" firstAttribute="top" secondItem="9aK-Re-nyR" secondAttribute="bottom" constant="8" id="P0u-Rl-Mqb"/>
                             <constraint firstItem="sbm-MH-wui" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bph-4c-p1c"/>
+                            <constraint firstItem="wFW-hH-fqC" firstAttribute="width" secondItem="uGL-H8-NTk" secondAttribute="width" id="eAC-8d-rV8"/>
                             <constraint firstItem="9aK-Re-nyR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ipo-B4-MM6"/>
                             <constraint firstItem="2kk-7j-g7H" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wJo-pd-dbZ"/>
                             <constraint firstItem="9aK-Re-nyR" firstAttribute="top" secondItem="2kk-7j-g7H" secondAttribute="bottom" constant="8" id="x5V-kF-ek0"/>
@@ -76,6 +86,7 @@
                     <connections>
                         <outlet property="blueView" destination="2kk-7j-g7H" id="mXX-nh-2ot"/>
                         <outlet property="loginButton" destination="sbm-MH-wui" id="zgS-QG-Rz1"/>
+                        <outlet property="myImageView" destination="wFW-hH-fqC" id="cVE-PJ-jV8"/>
                         <outlet property="passwordTextField" destination="uGL-H8-NTk" id="rfy-5j-ShE"/>
                         <outlet property="usernameTextField" destination="9aK-Re-nyR" id="e86-Qd-j0P"/>
                     </connections>
@@ -85,4 +96,7 @@
             <point key="canvasLocation" x="200" y="333"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="day62" width="915" height="610"/>
+    </resources>
 </document>

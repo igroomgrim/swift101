@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        day62()
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -548,5 +548,17 @@ class ViewController: UIViewController {
         day64()
     }
     
+    
+    @IBOutlet weak var myImageView: UIImageView!
+    // MARK: Day62 - Adding blur effects to UIImageView
+    func day62() {
+        
+        let blurEffect = UIBlurEffect(style: .ExtraLight)
+        // UIBlurEffectStyle is enum case ExtraLight, Light, Dark
+        // Try to change style and see the result
+        let blurView = UIVisualEffectView(effect: blurEffect)
+        blurView.frame.size = CGSize(width: myImageView.frame.width, height: myImageView.frame.height)
+        myImageView.addSubview(blurView)
+    }
 }
 
