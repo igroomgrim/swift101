@@ -208,6 +208,17 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Step 2 : Click run button on testGetAddressFullDetail()
   * Research from : [Testing-with-xcode-7-and-swift-2](http://code.tutsplus.com/tutorials/advances-in-testing-with-xcode-7-and-swift-2--cms-24469)
 
+* **2015-11-15** - *Day 62*
+  * Adding blur effects to UIImageView
+  * Try to adding UIBlurEffect to UIImageView with UIVisualEffectView.
+```swift
+    enum UIBlurEffectStyle : Int { 
+      case ExtraLight
+      case Light
+      case Dark 
+    }
+```
+
 ## Contact
 
 Anak Mirasing
