@@ -219,6 +219,14 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
     }
 ```
 
+* **2015-11-16** - *Day 61*
+  * Core Location in swift
+  * Try to find the user's location.
+  * NSLocationWhenInUseUsageDescription : Include this key when your app uses location services to track the user’s current location directly.
+  * NSLocationAlwaysUsageDescription : Include this key when your app uses location services in a potentially nonobvious way while running in the foreground or the background.
+  * Research from : [Getting the User’s Location](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html)
+  * Research from : [CocoaKeys](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW26)
+
 ## Contact
 
 Anak Mirasing
