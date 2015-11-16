@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import CoreLocation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, CLLocationManagerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        day62()
+        day61()
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -559,6 +560,37 @@ class ViewController: UIViewController {
         let blurView = UIVisualEffectView(effect: blurEffect)
         blurView.frame.size = CGSize(width: myImageView.frame.width, height: myImageView.frame.height)
         myImageView.addSubview(blurView)
+    }
+    
+    // MARK: Day61 - Core Location
+    let locationManager = CLLocationManager()
+    func day61() {
+        
+        self.locationManager.requestWhenInUseAuthorization()
+        
+        if (CLLocationManager.locationServicesEnabled()) {
+            print("Location Service : Enabled")
+            self.locationManager.delegate = self
+            self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
+            self.locationManager.startUpdatingLocation()
+        } else {
+            print("Location Service : Not Enabled")
+        }
+        
+    }
+    
+    // CLLocationManagerDelegate
+    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        print("Location update")
+        if let locationObj = locations.last {
+            print(locationObj.description)
+        }
+        
+        self.locationManager.stopUpdatingLocation()
+    }
+    
+    func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
+        print("Error")
     }
 }
 
