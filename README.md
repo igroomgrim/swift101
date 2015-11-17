@@ -227,6 +227,13 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Research from : [Getting the User’s Location](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html)
   * Research from : [CocoaKeys](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW26)
 
+* **2015-11-17** - *Day 60*
+  * TO-DO App with ReactiveCocoa and Realm - Part 1
+  * Initial Project TODO(Model,View,ViewModel)
+  * Research from : [ReactiveCocoa MVVM Introduction](http://www.sprynthesis.com/2014/12/06/reactivecocoa-mvvm-introduction/)
+  * Research from : [Why ReactiveCocoa](http://www.sprynthesis.com/2014/06/15/why-reactivecocoa/)
+  * Example Project : [TODO-MVVM](https://github.com/igroomgrim/TODO-MVVM)
+
 ## Contact
 
 Anak Mirasing
