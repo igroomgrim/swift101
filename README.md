@@ -234,6 +234,12 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Research from : [Why ReactiveCocoa](http://www.sprynthesis.com/2014/06/15/why-reactivecocoa/)
   * Example Project : [TODO-MVVM](https://github.com/igroomgrim/TODO-MVVM)
 
+* **2015-11-18** - *Day 59*
+  * TO-DO App with ReactiveCocoa and Realm - Part 2
+  * Add SnapKit and ReactiveRealm
+  * Update TODO View Model
+  * Example Project : [TODO-MVVM](https://github.com/igroomgrim/TODO-MVVM)
+
 ## Contact
 
 Anak Mirasing
