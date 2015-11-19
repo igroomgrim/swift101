@@ -240,6 +240,12 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Update TODO View Model
   * Example Project : [TODO-MVVM](https://github.com/igroomgrim/TODO-MVVM)
 
+* **2015-11-19** - *Day 58*
+  * 3D Touch Shortcut in swift
+  * Support in iOS9 SDK
+  * If you minimum is under iOS9 please check version first!!!
+  * Research from : [Apple doc - 3D Touch](https://developer.apple.com/ios/3d-touch/)
+
 ## Contact
 
 Anak Mirasing
