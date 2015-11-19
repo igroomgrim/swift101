@@ -12,11 +12,40 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    let ShortcutTypeAddItem = "AddItem"
+    let ShortcutTypeShowSomethingItem = "ShowSomeThing"
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // MARK: Day58 - 3D Touch Shortcut
+        // If you minimum is under iOS9 please check version first because it support in iOS9 only
+        if #available(iOS 9, *) {
+            
+            let showIcon = UIApplicationShortcutIcon(templateImageName: "showIcon")
+            
+            let shortcutAddItem = UIApplicationShortcutItem(type: ShortcutTypeAddItem, localizedTitle: "Add Item", localizedSubtitle: nil, icon: UIApplicationShortcutIcon(type: .Add), userInfo: nil)
+            let shortcutShowItem = UIApplicationShortcutItem(type: ShortcutTypeShowSomethingItem, localizedTitle: "Show ETC", localizedSubtitle: nil, icon: showIcon, userInfo: nil)
+            
+            UIApplication.sharedApplication().shortcutItems = [shortcutAddItem, shortcutShowItem]
+        }
+        
         return true
+    }
+    
+    // MARK: Day58 - 3D Touch Shortcut delegate
+    func application(application: UIApplication, performActionForShortcutItem shortcutItem: UIApplicationShortcutItem, completionHandler: (Bool) -> Void) {
+        // Check you shortCutItem
+        handleShortcutItem(shortcutItem)
+    }
+    
+    func handleShortcutItem(shortcutItem: UIApplicationShortcutItem) {
+        if shortcutItem.type == ShortcutTypeAddItem {
+            // Go to where you want : Etc. ViewController ...
+        } else if shortcutItem.type == ShortcutTypeShowSomethingItem {
+            // Go to where you want : Etc. ViewController ...
+        }
     }
 
     func applicationWillResignActive(application: UIApplication) {
