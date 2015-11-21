@@ -251,6 +251,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * A UIGravityBehavior object applies a gravity-like force to all of its associated dynamic items.
   * Research from : [Apple doc - UIGravityBehavior](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UIGravityBehavior_Class/index.html)
 
+* **2015-11-21** - *Day 56*
+  * Adding boundaries and collision animation
+  * A collision behavior confers, to a specified array of dynamic items, the ability of those items to engage in collisions with each other and with the behavior’s specified boundaries.
+  * Research from : [Apple doc - UICollisionBehavior](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UICollisionBehavior_Class/)
+
 ## Contact
 
 Anak Mirasing
