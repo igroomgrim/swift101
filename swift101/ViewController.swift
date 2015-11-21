@@ -13,7 +13,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        day61()
+        day57()
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -591,6 +591,22 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
         print("Error")
+    }
+    
+    // MARK: Day57 - Adding gravity to UIView
+    var gravity: UIGravityBehavior!
+    var animator: UIDynamicAnimator!
+    func day57() {
+        
+        var boxView: UIView!
+        boxView = UIView(frame: CGRectMake(0,0,80,80))
+        boxView.backgroundColor = UIColor.blueColor()
+        view.addSubview(boxView)
+        
+        animator = UIDynamicAnimator(referenceView: view)
+        gravity = UIGravityBehavior(items: [boxView])
+        animator.addBehavior(gravity)
+        
     }
 }
 
