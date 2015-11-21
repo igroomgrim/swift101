@@ -246,6 +246,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * If you minimum is under iOS9 please check version first!!!
   * Research from : [Apple doc - 3D Touch](https://developer.apple.com/ios/3d-touch/)
 
+* **2015-11-20** - *Day 57*
+  * Adding gravity to UIView
+  * A UIGravityBehavior object applies a gravity-like force to all of its associated dynamic items.
+  * Research from : [Apple doc - UIGravityBehavior](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UIGravityBehavior_Class/index.html)
+
 ## Contact
 
 Anak Mirasing
