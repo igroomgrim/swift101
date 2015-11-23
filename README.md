@@ -260,6 +260,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * UIDynamic Collision and item properties(Elasticity)
   * Research from : [Apple doc - UICollisionBehavior](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UICollisionBehavior_Class/)
 
+* **2015-11-23** - *Day 54*
+  * Draw Circle with UIBezierPath
+  * Research from : [Apple doc - UIBezierPath](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UIBezierPath_class/index.html)
+
 ## Contact
 
 Anak Mirasing
