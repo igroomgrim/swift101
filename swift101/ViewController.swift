@@ -13,7 +13,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        day55()
+        day54()
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -654,6 +654,24 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         animator.addBehavior(itemBehavior)
         animator.addBehavior(gravity)
         animator.addBehavior(collision)
+    }
+    
+    // MARK: Day54 - Draw Circle with UIBezierPath
+    func day54() {
+        
+        func bezierPathForCircleShapeInRect(originalFrame: CGRect) -> UIBezierPath {
+            return UIBezierPath(ovalInRect: originalFrame)
+        }
+        
+        let circlePath = bezierPathForCircleShapeInRect(CGRect(x: 0.0, y: 0.0, width: 100.0, height: 100.0))
+        
+        let shapeLayer = CAShapeLayer()
+        shapeLayer.path = circlePath.CGPath
+        shapeLayer.fillColor = UIColor.whiteColor().CGColor
+        shapeLayer.strokeColor = UIColor.blackColor().CGColor
+        shapeLayer.lineWidth = 5.0
+        
+        view.layer.addSublayer(shapeLayer)
     }
 }
 
