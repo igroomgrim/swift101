@@ -256,6 +256,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * A collision behavior confers, to a specified array of dynamic items, the ability of those items to engage in collisions with each other and with the behavior’s specified boundaries.
   * Research from : [Apple doc - UICollisionBehavior](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UICollisionBehavior_Class/)
 
+* **2015-11-22** - *Day 55*
+  * UIDynamic Collision and item properties(Elasticity)
+  * Research from : [Apple doc - UICollisionBehavior](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UICollisionBehavior_Class/)
+
 ## Contact
 
 Anak Mirasing
