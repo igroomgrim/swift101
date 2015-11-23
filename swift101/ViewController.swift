@@ -13,7 +13,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        day56()
+        day55()
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -625,6 +625,33 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         // Try to comment this row and see result
         collision.translatesReferenceBoundsIntoBoundary = true
         
+        animator.addBehavior(gravity)
+        animator.addBehavior(collision)
+    }
+    
+    // MARK: Day55 - UIDynamic Collision and item properties(Elasticity)
+    var itemBehavior: UIDynamicItemBehavior!
+    func day55() {
+        
+        var boxView: UIView!
+        boxView = UIView(frame: CGRectMake(0,0,80,80))
+        boxView.backgroundColor = UIColor.blueColor()
+        view.addSubview(boxView)
+        
+        animator = UIDynamicAnimator(referenceView: view)
+        gravity = UIGravityBehavior(items: [boxView])
+        
+        collision = UICollisionBehavior(items: [boxView])
+        // Try to comment this row and see result
+        collision.translatesReferenceBoundsIntoBoundary = true
+        
+        
+        itemBehavior = UIDynamicItemBehavior(items: [boxView])
+        
+        // How bouncy, try to change value
+        itemBehavior.elasticity = 0.5
+        
+        animator.addBehavior(itemBehavior)
         animator.addBehavior(gravity)
         animator.addBehavior(collision)
     }
