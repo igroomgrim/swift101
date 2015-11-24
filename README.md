@@ -264,7 +264,7 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Draw Circle with UIBezierPath
   * Research from : [Apple doc - UIBezierPath](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UIBezierPath_class/index.html)
 
-* **2015-11-22** - *Day 53*
+* **2015-11-24** - *Day 53*
   * RxSwift: ReactiveX for Swift
   * Research from : [RxSwift](https://github.com/ReactiveX/RxSwift/)
 
