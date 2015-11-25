@@ -268,6 +268,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * RxSwift: ReactiveX for Swift
   * Research from : [RxSwift](https://github.com/ReactiveX/RxSwift/)
 
+* **2015-11-25** - *Day 52*
+  * ReactiveCocoa vs RxSwift
+  * Research from : [Which one ?](http://stackoverflow.com/questions/32542846/reactivecocoa-vs-rxswift-pros-and-cons)
+
 ## Contact
 
 Anak Mirasing
