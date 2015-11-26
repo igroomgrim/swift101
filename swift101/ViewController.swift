@@ -8,12 +8,13 @@
 
 import UIKit
 import CoreLocation
+import SnapKit
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        day54()
+        day51()
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -672,6 +673,51 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         shapeLayer.lineWidth = 5.0
         
         view.layer.addSublayer(shapeLayer)
+    }
+    
+    // MARK: Day51 - SnapKit : Easy Auto Layout Constraints Programmatically
+    var snapView1: UIView!
+    var snapView2: UIView!
+    
+    func day51() {
+        snapView1 = UIView()
+        snapView2 = UIView()
+        snapView1.backgroundColor = UIColor.grayColor()
+        snapView2.backgroundColor = UIColor.blackColor()
+        self.view.addSubview(snapView1)
+        self.view.addSubview(snapView2)
+        
+        // Test no.1
+//        snapView1.snp_makeConstraints { (make) -> Void in
+//            make.height.equalTo(44)
+//            make.width.equalTo(44)
+//            make.bottom.equalTo(self.view).offset(-20)
+//            make.left.equalTo(self.view).offset(20)
+//        }
+//        
+//        snapView2.snp_makeConstraints { (make) -> Void in
+//            make.height.equalTo(44)
+//            make.width.equalTo(44)
+//            make.bottom.equalTo(self.view).offset(-20)
+//            make.right.equalTo(self.view).offset(-20)
+//        }
+        
+        // Test no.2
+        snapView1.snp_makeConstraints { (make) -> Void in
+            make.height.equalTo(44)
+            make.bottom.equalTo(self.view).offset(-20)
+            make.left.equalTo(self.view).offset(20)
+            make.right.equalTo(snapView2.snp_left).offset(-20)
+            make.width.equalTo(snapView2)
+        }
+        
+        snapView2.snp_makeConstraints { (make) -> Void in
+            make.height.equalTo(44)
+            make.bottom.equalTo(self.view).offset(-20)
+            make.right.equalTo(self.view).offset(-20)
+            make.left.equalTo(snapView1.snp_right).offset(20)
+            make.width.equalTo(snapView1)
+        }
     }
 }
 
