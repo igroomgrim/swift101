@@ -272,6 +272,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * ReactiveCocoa vs RxSwift
   * Research from : [Which one ?](http://stackoverflow.com/questions/32542846/reactivecocoa-vs-rxswift-pros-and-cons)
 
+* **2015-11-26** - *Day 51*
+  * SnapKit : Easy Auto Layout Constraints Programmatically
+  * try to adjust 2 UIView with auto layout
+  * Research from : [SnapKit](http://snapkit.io/)
+
 ## Contact
 
 Anak Mirasing
