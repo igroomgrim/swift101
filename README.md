@@ -276,6 +276,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * SnapKit : Easy Auto Layout Constraints Programmatically
   * try to adjust 2 UIView with auto layout
   * Research from : [SnapKit](http://snapkit.io/)
+  
+* **2015-11-27** - *Day 50*
+  * SnapKit : Create Login View
+  * Try to create login view by snapkit 
+  * Research from : [SnapKit](http://snapkit.io/)
 
 ## Contact
 
