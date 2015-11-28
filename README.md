@@ -282,6 +282,13 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Try to create login view by snapkit 
   * Research from : [SnapKit](http://snapkit.io/)
 
+* **2015-11-28** - *Day 49*
+  * SnapKit : Inset, Offset
+  * Try to use UIEdgeInsetsMake with view by snapkit 
+  * Research from : [SnapKit](http://snapkit.io/)
+  * Research from : [UIEdgeInsetsMake](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIKitFunctionReference/#//apple_ref/c/func/UIEdgeInsetsMake)
+
+
 ## Contact
 
 Anak Mirasing
