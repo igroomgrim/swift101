@@ -12,7 +12,7 @@ import SnapKit
 class Day49ViewController: UIViewController {
     
     override func viewDidLoad() {
-        setupView()
+        updateConstraints()
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -47,5 +47,28 @@ class Day49ViewController: UIViewController {
         }
         
     }
-
+    
+    // MARK: Day48 - SnapKit : Update/Remove Constraint
+    func updateConstraints() {
+        let greenView = UIView()
+        greenView.backgroundColor = UIColor.greenColor()
+        
+        self.view.addSubview(greenView)
+        
+        var topConstraint: Constraint?
+        var leftConstraint: Constraint?
+        
+        greenView.snp_makeConstraints { (make) -> Void in
+            make.width.equalTo(120)
+            make.height.equalTo(120)
+            topConstraint = make.top.equalTo(20).constraint
+            leftConstraint = make.left.equalTo(20).constraint
+        }
+        
+        // Try to update leftConstraint
+        leftConstraint?.updateOffset(40)
+        
+        // Try to remove topConstraint
+        topConstraint?.uninstall()
+    }
 }
