@@ -293,6 +293,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Try to update constraint and remove(uninstall) constraint 
   * Research from : [SnapKit](http://snapkit.io/)
 
+* **2015-11-30** - *Day 47*
+  * SnapKit : Align Top/Bottom/Left/Right
+  * Alignment view with superview
+  * Research from : [SnapKit](http://snapkit.io/)
+
 ## Contact
 
 Anak Mirasing
