@@ -12,7 +12,7 @@ import SnapKit
 class Day49ViewController: UIViewController {
     
     override func viewDidLoad() {
-        updateConstraints()
+        alignment()
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -71,4 +71,32 @@ class Day49ViewController: UIViewController {
         // Try to remove topConstraint
         topConstraint?.uninstall()
     }
+    
+    // MARK: Day47 - SnapKit : Align Top/Bottom/Left/Right
+    func alignment() {
+        let purpleView = UIView()
+        purpleView.backgroundColor = UIColor.purpleColor()
+        self.view.addSubview(purpleView)
+        
+        purpleView.snp_makeConstraints { (make) -> Void in
+            make.width.equalTo(120)
+            make.height.equalTo(60)
+            
+            // Align Top (Superview)
+            // make.top.lessThanOrEqualTo(self.view)
+            // Add offset
+            // make.top.lessThanOrEqualTo(self.view).offset(40)
+            
+            // Align Left (Superview)
+            // make.left.lessThanOrEqualTo(self.view).offset(60)
+            
+            // Align Right (Superview)
+            // make.right.lessThanOrEqualTo(self.view).offset(-60)
+            
+            // Align Bottom (Superview)
+            make.bottom.lessThanOrEqualTo(self.view).offset(-60)
+        }
+        
+    }
+    
 }
