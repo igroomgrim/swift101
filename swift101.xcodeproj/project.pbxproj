@@ -26,6 +26,7 @@
 		14F2D5821BC8249700E1D6CF /* Day94_optional_chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F2D5811BC8249700E1D6CF /* Day94_optional_chaining.swift */; };
 		14F6F51F1BBC5C9400BD7AFC /* Day99_prototype_pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F6F51E1BBC5C9400BD7AFC /* Day99_prototype_pattern.swift */; };
 		1CD4502EBFE6FE72DE199AFE /* Pods_swift101.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F64E38975E53634CE344E1 /* Pods_swift101.framework */; };
+		980B46391C0EA6050030A4AF /* Day46_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B46381C0EA6050030A4AF /* Day46_Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		14F2D5811BC8249700E1D6CF /* Day94_optional_chaining.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day94_optional_chaining.swift; sourceTree = "<group>"; };
 		14F6F51E1BBC5C9400BD7AFC /* Day99_prototype_pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day99_prototype_pattern.swift; sourceTree = "<group>"; };
 		867B4FAF32A1C35C9F3A2686 /* Pods-swift101.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift101.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift101/Pods-swift101.release.xcconfig"; sourceTree = "<group>"; };
+		980B46381C0EA6050030A4AF /* Day46_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day46_Extension.swift; sourceTree = "<group>"; };
 		AB9DAD876A18FA3260B52ECC /* Pods-swift101.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift101.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift101/Pods-swift101.debug.xcconfig"; sourceTree = "<group>"; };
 		F0F64E38975E53634CE344E1 /* Pods_swift101.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift101.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -130,6 +132,7 @@
 				14A467441BB867BA00EA2A12 /* Storyboard */,
 				14A467461BB867DB00EA2A12 /* Assets */,
 				14A467181BB8676400EA2A12 /* ViewController.swift */,
+				980B46381C0EA6050030A4AF /* Day46_Extension.swift */,
 				147F8A761C08BBC500FC1184 /* Day50_snapkit_part2.swift */,
 				140BDDC01C09BC4A00995A7F /* Day49_snapkit_part3.swift */,
 				14A467471BB8697800EA2A12 /* Day101_reduce_extension.swift */,
@@ -397,6 +400,7 @@
 				148B11791BC189FB001127AD /* Day96_closures.swift in Sources */,
 				14A467171BB8676400EA2A12 /* AppDelegate.swift in Sources */,
 				14CAE3A91BBDB29900ED6A26 /* Day98_singleton_pattern.swift in Sources */,
+				980B46391C0EA6050030A4AF /* Day46_Extension.swift in Sources */,
 				14F6F51F1BBC5C9400BD7AFC /* Day99_prototype_pattern.swift in Sources */,
 				14D07A4A1BC4426E00821625 /* Day95_enumerations.swift in Sources */,
 				144B3F4F1BBF801C002B1C27 /* Day97_custom_extension.swift in Sources */,
