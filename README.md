@@ -298,6 +298,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Alignment view with superview
   * Research from : [SnapKit](http://snapkit.io/)
 
+* **2015-12-01** - *Day 46*
+  * Extension : URL escaped string
+  * Research from : [Extensions](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Extensions.html)
+
 ## Contact
 
 Anak Mirasing
