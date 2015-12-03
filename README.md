@@ -302,6 +302,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Extension : URL escaped string
   * Research from : [Extensions](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Extensions.html)
 
+* **2015-12-02** - *Day 45*
+  * Extension : Init UIColor by Red/Green/Blue
+  * Research from : [Extensions](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Extensions.html)
+
 ## Contact
 
 Anak Mirasing
