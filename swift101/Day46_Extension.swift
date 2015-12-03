@@ -26,3 +26,14 @@ extension String {
         return self.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLHostAllowedCharacterSet())!
     }
 }
+
+// MARK: Day45 - Extension : Init UIColor by Red/Green/Blue
+extension UIColor {
+    convenience init(red: Int, green: Int, blue: Int) {
+        let newRed   = CGFloat(Double(red) / 255.0)
+        let newGreen = CGFloat(Double(green) / 255.0)
+        let newBlue  = CGFloat(Double(blue) / 255.0)
+        
+        self.init(red: newRed, green: newGreen, blue: newBlue, alpha: CGFloat(1.0))
+    }
+}
