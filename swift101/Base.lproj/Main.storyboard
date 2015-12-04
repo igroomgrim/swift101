@@ -95,10 +95,10 @@
             </objects>
             <point key="canvasLocation" x="-762" y="-271"/>
         </scene>
-        <!--Day49 View Controller-->
+        <!--Day46 View Controller-->
         <scene sceneID="IVh-nE-T6x">
             <objects>
-                <viewController id="Z6Z-6s-DPM" customClass="Day49ViewController" customModule="swift101" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Z6Z-6s-DPM" customClass="Day46ViewController" customModule="swift101" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QaQ-7P-WBL"/>
                         <viewControllerLayoutGuide type="bottom" id="C5g-j0-cgu"/>

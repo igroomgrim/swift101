@@ -11,7 +11,8 @@ import UIKit
 class Day46ViewController: UIViewController {
     
     override func viewDidLoad() {
-        
+        let myPoint = 60
+        print(myPoint.tenPercent())
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -35,5 +36,12 @@ extension UIColor {
         let newBlue  = CGFloat(Double(blue) / 255.0)
         
         self.init(red: newRed, green: newGreen, blue: newBlue, alpha: CGFloat(1.0))
+    }
+}
+
+// MARK: Day44 - Extension : Int extension find ten percent of your value
+extension Int {
+    func tenPercent() -> Int {
+        return (self * 10) / 100
     }
 }
