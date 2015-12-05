@@ -310,6 +310,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Extension : Int extension find ten percent of your value
   * Research from : [Extensions](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Extensions.html)
 
+* **2015-12-05** - *Day 43*
+  * SFSafariViewController
+  * Research from : [SFSafariViewController](https://developer.apple.com/library/prerelease/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/index.html)
+  * Research from : [Video from WWDC2015](https://developer.apple.com/videos/play/wwdc2015-504/)
+
 ## Contact
 
 Anak Mirasing
