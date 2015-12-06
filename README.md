@@ -315,11 +315,23 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Research from : [SFSafariViewController](https://developer.apple.com/library/prerelease/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/index.html)
   * Research from : [Video from WWDC2015](https://developer.apple.com/videos/play/wwdc2015-504/)
 
+* **2015-12-06** - *Day 42*
+  * Swift in Practice
+  * Manually check if a method is available
+  * Adopting new APIs while deploying back
+  * Compile-time API availability checking (it very nice feature)
+  * Expressing conditional logic (guard)
+  * Enforcing application constraints
+  * Asset catalog identifiers
+  * Assetidentifier enum benefits
+  * Research from : [Video from WWDC2015](https://developer.apple.com/videos/play/wwdc2015-411/)
+
 ## Contact
 
 Anak Mirasing
 
 - https://github.com/igroomgrim
+- https://www.linkedin.com/in/anakmirasing
 - https://twitter.com/igroomgrim
 - http://www.igroomgrim.com/
 - thaihooligan@hotmail.com
