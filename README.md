@@ -326,6 +326,19 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Assetidentifier enum benefits
   * Research from : [Video from WWDC2015](https://developer.apple.com/videos/play/wwdc2015-411/)
 
+* **2015-12-07** - *Day 41*
+  * Cocoa Touch Best Practices
+  * Agenda
+    * App lifecycle
+    * Views and View Controllers
+    * Auto Layout
+    * Table and Collection Views
+  * Goal
+    * Performance
+    * User Experience
+    * Future Proofing
+  * Research from : [Video from WWDC2015](https://developer.apple.com/videos/play/wwdc2015-231/) 
+
 ## Contact
 
 Anak Mirasing
