@@ -339,6 +339,16 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
     * Future Proofing
   * Research from : [Video from WWDC2015](https://developer.apple.com/videos/play/wwdc2015-231/) 
 
+* **2015-12-08** - *Day 40*
+  * What's New in Notifications
+  * iOS Notifications
+    * Silent Notifications
+    * User Notifications
+    * Actions
+    * Text input (New)
+  * APNS
+  * Research from : [Video from WWDC2015](https://developer.apple.com/videos/play/wwdc2015-720/) 
+
 ## Contact
 
 Anak Mirasing
