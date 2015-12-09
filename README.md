@@ -349,6 +349,16 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * APNS
   * Research from : [Video from WWDC2015](https://developer.apple.com/videos/play/wwdc2015-720/) 
 
+* **2015-12-09** - *Day 39*
+  * Building Better Apps with Value Types in Swift
+  * Roadmap
+    * Reference semantics
+    * Immutability
+    * Value semantics
+    * Value types in practice
+    * Mixing value types and reference types
+  * Research from : [Video from WWDC2015](https://developer.apple.com/videos/play/wwdc2015-414/) 
+
 ## Contact
 
 Anak Mirasing
