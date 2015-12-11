@@ -359,6 +359,15 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
     * Mixing value types and reference types
   * Research from : [Video from WWDC2015](https://developer.apple.com/videos/play/wwdc2015-414/) 
 
+* **2015-12-10** - *Day 38*
+  * What's new in core data
+  * Object graph management
+  * Automatic graph management
+  * NSFetchRequest
+  * Multi-Writer conflict handling
+  * 
+  * Research from : [Video from WWDC2015](https://developer.apple.com/videos/play/wwdc2015-220/)
+
 ## Contact
 
 Anak Mirasing
