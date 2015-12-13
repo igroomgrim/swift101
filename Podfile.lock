@@ -1,10 +1,13 @@
 PODS:
   - SnapKit (0.15.0)
+  - SSKeychain (1.2.3)
 
 DEPENDENCIES:
   - SnapKit (~> 0.15.0)
+  - SSKeychain
 
 SPEC CHECKSUMS:
   SnapKit: 4962eed2ee18e48cbd2b2292fffc57efe7235f87
+  SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
 
 COCOAPODS: 0.39.0

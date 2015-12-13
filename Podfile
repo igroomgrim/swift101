@@ -5,6 +5,7 @@ use_frameworks!
 
 target 'swift101' do
 pod 'SnapKit', '~> 0.15.0'
+pod 'SSKeychain'
 end
 
 target 'swift101Tests' do
