@@ -376,6 +376,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Kernel class and language
   * Research from : [Video from WWDC2015](https://developer.apple.com/videos/play/wwdc2015-510/)
 
+* **2015-12-12** - *Day 36*
+  * SSKeychain with Swift
+  * Set keychain password
+  * Research from : [SSKeychain](https://github.com/soffes/sskeychain)
+
 ## Contact
 
 Anak Mirasing
