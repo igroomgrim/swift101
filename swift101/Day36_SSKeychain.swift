@@ -24,9 +24,16 @@ class Day36ViewController: UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         self.viewDidDisappear(animated)
+        
+        let accounts = self.getAccountFromService()
+        print(accounts)
     }
     
     private func setKeychain(sessionToken: String, sessionAccount: String) {
         SSKeychain.setPassword(sessionToken, forService: ServiceName, account: sessionAccount)
+    }
+    
+    private func getAccountFromService() -> NSArray {
+        return SSKeychain.accountsForService(ServiceName)
     }
 }
