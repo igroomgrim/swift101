@@ -381,6 +381,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Set keychain password
   * Research from : [SSKeychain](https://github.com/soffes/sskeychain)
 
+* **2015-12-13** - *Day 35*
+  * SSKeychain with Swift - Get account from your service
+  * Research from : [SSKeychain](https://github.com/soffes/sskeychain)
+
 ## Contact
 
 Anak Mirasing
