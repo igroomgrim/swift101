@@ -35,6 +35,12 @@ class Day36ViewController: UIViewController {
         
         print("password : \(pwd)")
         
+        if self.deletePasswordFromAccount(account) {
+            print("Delete Password : Success")
+        } else {
+            print("Delete Password : Unsuccess")
+        }
+        
     }
     
     private func setKeychain(sessionToken: String, sessionAccount: String) {
@@ -49,5 +55,10 @@ class Day36ViewController: UIViewController {
     // Day 34 - Get password from account
     private func getPasswordFromAccount(sessionAccount: String) -> String {
         return SSKeychain.passwordForService(ServiceName, account: sessionAccount)
+    }
+    
+    // Day 33 - Delete password from account
+    private func deletePasswordFromAccount(sessionAccount: String) -> Bool {
+        return SSKeychain.deletePasswordForService(ServiceName, account: sessionAccount)
     }
 }
