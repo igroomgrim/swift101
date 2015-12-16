@@ -389,6 +389,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * SSKeychain with Swift - Get password from account
   * Research from : [SSKeychain](https://github.com/soffes/sskeychain)
 
+* **2015-12-15** - *Day 33*
+  * SSKeychain with Swift - Delelte password from account
+  * Research from : [SSKeychain](https://github.com/soffes/sskeychain)
+
 ## Contact
 
 Anak Mirasing
