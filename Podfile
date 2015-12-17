@@ -6,6 +6,7 @@ use_frameworks!
 target 'swift101' do
 pod 'SnapKit', '~> 0.15.0'
 pod 'SSKeychain'
+pod 'AFNetworking', '~> 2.0'
 end
 
 target 'swift101Tests' do

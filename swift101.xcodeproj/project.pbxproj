@@ -11,6 +11,7 @@
 		144B3F4F1BBF801C002B1C27 /* Day97_custom_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144B3F4E1BBF801C002B1C27 /* Day97_custom_extension.swift */; };
 		1468E90D1C1349ED003C0077 /* SafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468E90C1C1349ED003C0077 /* SafariViewController.swift */; };
 		146F6B381BCA9773006ACC30 /* Day93_tuples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146F6B371BCA9773006ACC30 /* Day93_tuples.swift */; };
+		147F400D1C23089200358063 /* Day32_AFNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F400C1C23089200358063 /* Day32_AFNetworking.swift */; };
 		147F8A771C08BBC500FC1184 /* Day50_snapkit_part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F8A761C08BBC500FC1184 /* Day50_snapkit_part2.swift */; };
 		14892C5C1C1DD7D0006BA636 /* Day36_SSKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14892C5B1C1DD7D0006BA636 /* Day36_SSKeychain.swift */; };
 		148B11791BC189FB001127AD /* Day96_closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B11781BC189FB001127AD /* Day96_closures.swift */; };
@@ -54,6 +55,7 @@
 		144B3F4E1BBF801C002B1C27 /* Day97_custom_extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day97_custom_extension.swift; sourceTree = "<group>"; };
 		1468E90C1C1349ED003C0077 /* SafariViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariViewController.swift; sourceTree = "<group>"; };
 		146F6B371BCA9773006ACC30 /* Day93_tuples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day93_tuples.swift; sourceTree = "<group>"; };
+		147F400C1C23089200358063 /* Day32_AFNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day32_AFNetworking.swift; sourceTree = "<group>"; };
 		147F8A761C08BBC500FC1184 /* Day50_snapkit_part2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day50_snapkit_part2.swift; sourceTree = "<group>"; };
 		14892C5B1C1DD7D0006BA636 /* Day36_SSKeychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day36_SSKeychain.swift; sourceTree = "<group>"; };
 		14892C5D1C1DD8E3006BA636 /* swift101-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift101-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				14A467441BB867BA00EA2A12 /* Storyboard */,
 				14A467461BB867DB00EA2A12 /* Assets */,
 				14A467181BB8676400EA2A12 /* ViewController.swift */,
+				147F400C1C23089200358063 /* Day32_AFNetworking.swift */,
 				14892C5B1C1DD7D0006BA636 /* Day36_SSKeychain.swift */,
 				980B46381C0EA6050030A4AF /* Day46_Extension.swift */,
 				147F8A761C08BBC500FC1184 /* Day50_snapkit_part2.swift */,
@@ -403,6 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				147F400D1C23089200358063 /* Day32_AFNetworking.swift in Sources */,
 				14F2D5821BC8249700E1D6CF /* Day94_optional_chaining.swift in Sources */,
 				146F6B381BCA9773006ACC30 /* Day93_tuples.swift in Sources */,
 				14CF0A091BB9A7CA00AAA350 /* Day100_object_template_pattern.swift in Sources */,
