@@ -393,6 +393,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * SSKeychain with Swift - Delelte password from account
   * Research from : [SSKeychain](https://github.com/soffes/sskeychain)
 
+* **2015-12-16** - *Day 32*
+  * AFNetworking : POST Method
+  * Research from : [AFNetworking](https://github.com/AFNetworking/AFNetworking)
+
 ## Contact
 
 Anak Mirasing
