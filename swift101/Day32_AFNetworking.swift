@@ -39,5 +39,18 @@ class Day32_AFNetworking: UIViewController {
         }
         
     }
+    
+    // Day 31 - AFNetworking : GET Method
+    func getFromEndpoint(endpoint: String, parameters: NSDictionary, onCompletion: ServiceResponse) -> Void {
+        manager.GET(endpoint, parameters: parameters, success: { (operation: AFHTTPRequestOperation!, responseObject: AnyObject!) -> Void in
+            
+            let responseDict = responseObject as! NSDictionary
+            onCompletion(responseDict,nil)
+            
+        }) { (operation: AFHTTPRequestOperation?, error: NSError) -> Void in
+                
+            onCompletion(nil,error)
+        }
+    }
 
 }
