@@ -397,6 +397,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * AFNetworking : POST Method
   * Research from : [AFNetworking](https://github.com/AFNetworking/AFNetworking)
 
+* **2015-12-17** - *Day 31*
+  * AFNetworking : GET Method
+  * Research from : [AFNetworking](https://github.com/AFNetworking/AFNetworking)
+
 ## Contact
 
 Anak Mirasing
