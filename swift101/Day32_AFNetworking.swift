@@ -52,5 +52,19 @@ class Day32_AFNetworking: UIViewController {
             onCompletion(nil,error)
         }
     }
+    
+    // Day 30 - AFNetworking : PATCH Method
+    func pathToEndpoint(endpoint: String, parameters: NSDictionary, onCompletion: ServiceResponse) -> Void {
+        manager.PATCH(endpoint, parameters: parameters, success: { (operation: AFHTTPRequestOperation!, responseObject: AnyObject!) -> Void in
+            
+            let responseDict = responseObject as! NSDictionary
+            onCompletion(responseDict,nil)
+            
+        }) { (operation: AFHTTPRequestOperation?, error: NSError) -> Void in
+                
+            onCompletion(nil,error)
+        }
+    }
+
 
 }
