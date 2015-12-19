@@ -401,6 +401,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * AFNetworking : GET Method
   * Research from : [AFNetworking](https://github.com/AFNetworking/AFNetworking)
 
+* **2015-12-18** - *Day 30*
+  * AFNetworking : PATCH Method
+  * Research from : [AFNetworking](https://github.com/AFNetworking/AFNetworking)
+
 ## Contact
 
 Anak Mirasing
