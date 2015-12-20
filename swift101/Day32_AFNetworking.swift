@@ -65,6 +65,18 @@ class Day32_AFNetworking: UIViewController {
             onCompletion(nil,error)
         }
     }
-
+    
+    // Day 29 - AFNetworking : PUT Method
+    func putToEndpoint(endpoint: String, parameters: NSDictionary, onCompletion: ServiceResponse) -> Void {
+        manager.PUT(endpoint, parameters: parameters, success: { (operation: AFHTTPRequestOperation!, responseObject: AnyObject!) -> Void in
+            
+            let responseDict = responseObject as! NSDictionary
+            onCompletion(responseDict,nil)
+            
+        }) { (operation: AFHTTPRequestOperation?, error: NSError) -> Void in
+                
+            onCompletion(nil,error)
+        }
+    }
 
 }
