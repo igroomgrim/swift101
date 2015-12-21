@@ -78,5 +78,19 @@ class Day32_AFNetworking: UIViewController {
             onCompletion(nil,error)
         }
     }
+    
+    // Day 28 - AFNetworking : DELETE Method
+    func deleteToEndpoint(endpoint: String, parameters: NSDictionary, onCompletion: ServiceResponse) -> Void {
+        manager.DELETE(endpoint, parameters: parameters, success: { (operation: AFHTTPRequestOperation!, responseObject: AnyObject!) -> Void in
+            
+            let responseDict = responseObject as! NSDictionary
+            onCompletion(responseDict,nil)
+            
+        }) { (operation: AFHTTPRequestOperation?, error: NSError) -> Void in
+                
+            onCompletion(nil,error)
+        }
+    }
+
 
 }
