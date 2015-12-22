@@ -413,6 +413,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * AFNetworking : DELETE Method
   * Research from : [AFNetworking](https://github.com/AFNetworking/AFNetworking)
 
+* **2015-12-21** - *Day 27*
+  * Documentation in Swift(Comments)
+  * Research from : [NSHipster](http://nshipster.com/swift-documentation/)
+
 ## Contact
 
 Anak Mirasing
