@@ -417,6 +417,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Documentation in Swift(Comments)
   * Research from : [NSHipster](http://nshipster.com/swift-documentation/)
 
+* **2015-12-22** - *Day 26*
+  * Check Prefix, Suffix in String
+  * String.hasPrefix -> Bool
+  * String.hasSuffix -> Bool
+
 ## Contact
 
 Anak Mirasing
