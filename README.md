@@ -421,6 +421,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Check Prefix, Suffix in String
   * String.hasPrefix -> Bool
   * String.hasSuffix -> Bool
+  
+* **2015-12-23** - *Day 25*
+  * Type Alias in Swift
+  * Research from : [Declarations](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Declarations.html)
 
 ## Contact
 
