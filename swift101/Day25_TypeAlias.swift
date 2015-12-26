@@ -31,4 +31,13 @@ class Day25_TypeAlias: NSObject {
     }
 
     
+    // Day 24 - Didset : Stored Variable Observers and Property Observers
+    var propertyChangedListener : (Int, Int) -> Void = {
+        print("The value of myProperty has changed from \($0) to \($1)")
+    }
+    
+    var myProperty : Int = 0 {
+        didSet { propertyChangedListener(oldValue, self.myProperty) }
+    }
+    
 }
