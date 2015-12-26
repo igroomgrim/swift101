@@ -426,6 +426,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Type Alias in Swift
   * Research from : [Declarations](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Declarations.html)
 
+* **2015-12-24** - *Day 24*
+  * Didset : Stored Variable Observers and Property Observers
+  * Research from : [Declarations](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Declarations.html)
+
 ## Contact
 
 Anak Mirasing
