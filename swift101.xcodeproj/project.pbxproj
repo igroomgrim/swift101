@@ -26,6 +26,7 @@
 		14A467371BB8676400EA2A12 /* swift101UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A467361BB8676400EA2A12 /* swift101UITests.swift */; };
 		14A467481BB8697800EA2A12 /* Day101_reduce_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A467471BB8697800EA2A12 /* Day101_reduce_extension.swift */; };
 		14CAE3A91BBDB29900ED6A26 /* Day98_singleton_pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CAE3A81BBDB29900ED6A26 /* Day98_singleton_pattern.swift */; };
+		14CE27B61C3016EA00249832 /* Day23_CaseOfTheString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CE27B51C3016EA00249832 /* Day23_CaseOfTheString.swift */; };
 		14CF0A091BB9A7CA00AAA350 /* Day100_object_template_pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF0A081BB9A7CA00AAA350 /* Day100_object_template_pattern.swift */; };
 		14CFDFF91C2B13420045C6B7 /* Day26_CheckString_Prefix_Suffix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CFDFF81C2B13420045C6B7 /* Day26_CheckString_Prefix_Suffix.swift */; };
 		14D07A4A1BC4426E00821625 /* Day95_enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D07A491BC4426E00821625 /* Day95_enumerations.swift */; };
@@ -80,6 +81,7 @@
 		14A467381BB8676400EA2A12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14A467471BB8697800EA2A12 /* Day101_reduce_extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day101_reduce_extension.swift; sourceTree = "<group>"; };
 		14CAE3A81BBDB29900ED6A26 /* Day98_singleton_pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day98_singleton_pattern.swift; sourceTree = "<group>"; };
+		14CE27B51C3016EA00249832 /* Day23_CaseOfTheString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day23_CaseOfTheString.swift; sourceTree = "<group>"; };
 		14CF0A081BB9A7CA00AAA350 /* Day100_object_template_pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day100_object_template_pattern.swift; sourceTree = "<group>"; };
 		14CFDFF81C2B13420045C6B7 /* Day26_CheckString_Prefix_Suffix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day26_CheckString_Prefix_Suffix.swift; sourceTree = "<group>"; };
 		14D07A491BC4426E00821625 /* Day95_enumerations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day95_enumerations.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				14A467441BB867BA00EA2A12 /* Storyboard */,
 				14A467461BB867DB00EA2A12 /* Assets */,
 				14A467181BB8676400EA2A12 /* ViewController.swift */,
+				14CE27B51C3016EA00249832 /* Day23_CaseOfTheString.swift */,
 				14386DC21C2DA4A40023334A /* Day25_TypeAlias.swift */,
 				14CFDFF81C2B13420045C6B7 /* Day26_CheckString_Prefix_Suffix.swift */,
 				1463509E1C29ABEA0008373C /* Day27_Comments.swift */,
@@ -434,6 +437,7 @@
 				14386DC31C2DA4A40023334A /* Day25_TypeAlias.swift in Sources */,
 				14D07A4A1BC4426E00821625 /* Day95_enumerations.swift in Sources */,
 				144B3F4F1BBF801C002B1C27 /* Day97_custom_extension.swift in Sources */,
+				14CE27B61C3016EA00249832 /* Day23_CaseOfTheString.swift in Sources */,
 				1463509F1C29ABEA0008373C /* Day27_Comments.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
