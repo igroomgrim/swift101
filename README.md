@@ -430,6 +430,14 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Didset : Stored Variable Observers and Property Observers
   * Research from : [Declarations](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Declarations.html)
 
+* **2015-12-25** - *Day 23*
+  * Three computed properties case of the string
+  * Capitalized String : myString.capitalizedString
+  * Lowercase String : myString.lowercaseString
+  * Uppercase String : myString.uppercaseString
+
+
+
 ## Contact
 
 Anak Mirasing
