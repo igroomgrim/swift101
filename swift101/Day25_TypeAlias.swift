@@ -42,7 +42,7 @@ class Day25_TypeAlias: NSObject {
     
     // Day 22 - willSet : Stored Variable Observers and Property Observers
     // A willSet observer is called just before the value of the variable or property is set
-    var carName: String {
+    var carName: String = "" {
             
             willSet(incomingCarName) {
                 print("set carName to : \(incomingCarName)")
