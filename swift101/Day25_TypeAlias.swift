@@ -40,4 +40,21 @@ class Day25_TypeAlias: NSObject {
         didSet { propertyChangedListener(oldValue, self.myProperty) }
     }
     
+    // Day 22 - willSet : Stored Variable Observers and Property Observers
+    // A willSet observer is called just before the value of the variable or property is set
+    var carName: String {
+            
+            willSet(incomingCarName) {
+                print("set carName to : \(incomingCarName)")
+            }
+            
+            didSet(previousCarName) {
+                updateNewCarNameToUI("Changed Car Name from \(previousCarName) to \(carName)")
+            }
+    }
+    
+    func updateNewCarNameToUI(message: String) {
+        print(message)
+    }
+    
 }
