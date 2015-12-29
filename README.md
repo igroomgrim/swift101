@@ -441,8 +441,12 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * A willSet observer is called just before the value of the variable or property is set.
   * Research from : [Declarations](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Declarations.html)
 
-## Contact
+* **2015-12-27** - *Day 21*
+  * Making bulk changes to an array in Swift
+  * myArray[1...3] = [a,b,c]
 
+## Contact
+ 
 Anak Mirasing
 
 - https://github.com/igroomgrim
