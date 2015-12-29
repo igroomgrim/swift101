@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		140BDDC11C09BC4A00995A7F /* Day49_snapkit_part3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140BDDC01C09BC4A00995A7F /* Day49_snapkit_part3.swift */; };
+		141CC26D1C32EC5100F8CB07 /* Day22_MakingBulkChangesToAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141CC26C1C32EC5100F8CB07 /* Day22_MakingBulkChangesToAnArray.swift */; };
 		14386DC31C2DA4A40023334A /* Day25_TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14386DC21C2DA4A40023334A /* Day25_TypeAlias.swift */; };
 		144B3F4F1BBF801C002B1C27 /* Day97_custom_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144B3F4E1BBF801C002B1C27 /* Day97_custom_extension.swift */; };
 		1463509F1C29ABEA0008373C /* Day27_Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1463509E1C29ABEA0008373C /* Day27_Comments.swift */; };
@@ -56,6 +57,7 @@
 
 /* Begin PBXFileReference section */
 		140BDDC01C09BC4A00995A7F /* Day49_snapkit_part3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day49_snapkit_part3.swift; sourceTree = "<group>"; };
+		141CC26C1C32EC5100F8CB07 /* Day22_MakingBulkChangesToAnArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day22_MakingBulkChangesToAnArray.swift; sourceTree = "<group>"; };
 		14386DC21C2DA4A40023334A /* Day25_TypeAlias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day25_TypeAlias.swift; sourceTree = "<group>"; };
 		144B3F4E1BBF801C002B1C27 /* Day97_custom_extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day97_custom_extension.swift; sourceTree = "<group>"; };
 		1463509E1C29ABEA0008373C /* Day27_Comments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day27_Comments.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				14A467441BB867BA00EA2A12 /* Storyboard */,
 				14A467461BB867DB00EA2A12 /* Assets */,
 				14A467181BB8676400EA2A12 /* ViewController.swift */,
+				141CC26C1C32EC5100F8CB07 /* Day22_MakingBulkChangesToAnArray.swift */,
 				14CE27B51C3016EA00249832 /* Day23_CaseOfTheString.swift */,
 				14386DC21C2DA4A40023334A /* Day25_TypeAlias.swift */,
 				14CFDFF81C2B13420045C6B7 /* Day26_CheckString_Prefix_Suffix.swift */,
@@ -427,6 +430,7 @@
 				147F8A771C08BBC500FC1184 /* Day50_snapkit_part2.swift in Sources */,
 				140BDDC11C09BC4A00995A7F /* Day49_snapkit_part3.swift in Sources */,
 				14A467481BB8697800EA2A12 /* Day101_reduce_extension.swift in Sources */,
+				141CC26D1C32EC5100F8CB07 /* Day22_MakingBulkChangesToAnArray.swift in Sources */,
 				1468E90D1C1349ED003C0077 /* SafariViewController.swift in Sources */,
 				148B11791BC189FB001127AD /* Day96_closures.swift in Sources */,
 				14892C5C1C1DD7D0006BA636 /* Day36_SSKeychain.swift in Sources */,
