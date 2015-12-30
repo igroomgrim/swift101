@@ -19,4 +19,14 @@ class Day21_MakingBulkChangesToAnArray: NSObject {
         myArray[0...2] = [a,b,c]
         // myArray contains [a,b,c,44,55,66,7,8,9,10]
     }
+    
+    
+    // Day 20 - The sortInPlace algorithm sorts the array in place.
+    func sortMyArray() {
+        myArray.sortInPlace(){ $0 < $1 }
+        // myArray contains [1,2,3,4,5,6,7,8,9,10]
+        
+        myArray.sortInPlace(){ $1 < $0 }
+        // myArray contains [10,9,8,7,6,5,4,3,2,1]
+    }
 }
