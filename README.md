@@ -445,6 +445,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Making bulk changes to an array in Swift
   * myArray[1...3] = [a,b,c]
 
+* **2015-12-28** - *Day 20*
+  * The sortInPlace algorithm sorts the array in place.
+  * myArray.sortInPlace(){ $0 < $1 }
+
 ## Contact
  
 Anak Mirasing
