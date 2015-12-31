@@ -449,6 +449,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * The sortInPlace algorithm sorts the array in place.
   * myArray.sortInPlace(){ $0 < $1 }
 
+* **2015-12-29** - *Day 19*
+  * Day 19 - The sort algorithm sorts the array
+  * let arraySorted = myArray.sort(){ $0 < $1 }
+
 ## Contact
  
 Anak Mirasing
