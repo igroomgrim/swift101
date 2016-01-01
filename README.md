@@ -450,8 +450,12 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * myArray.sortInPlace(){ $0 < $1 }
 
 * **2015-12-29** - *Day 19*
-  * Day 19 - The sort algorithm sorts the array
+  * The sort algorithm sorts the array
   * let arraySorted = myArray.sort(){ $0 < $1 }
+
+* **2015-12-30** - *Day 18*
+  * The filter algorithm will return a new array by filtering the original array.
+  * let filtered = myArray.filter{$0 > 5 && $0 < 7}
 
 ## Contact
  
