@@ -42,4 +42,12 @@ class Day21_MakingBulkChangesToAnArray: NSObject {
         
         
     }
+    
+    // Day 18 - The filter algorithm will return a new array by filtering the original array.
+    func filterArray() {
+        
+        let filtered = myArray.filter{$0 > 5 && $0 < 7}
+        print(filtered)
+        // filtered contain 6.. if the number is greater than 5 or less than 7; therefore, any number that is greater than 5 or less than 7 is included in the new filtered array.
+    }
 }
