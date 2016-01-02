@@ -457,6 +457,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * The filter algorithm will return a new array by filtering the original array.
   * let filtered = myArray.filter{$0 > 5 && $0 < 7}
 
+* **2015-12-31** - *Day 17*
+  * Functional Reactive Programming with RxSwift 
+  * Research from : [Realm.io - RxSwift](https://realm.io/news/slug-max-alexander-functional-reactive-rxswift/)
+  
+
 ## Contact
  
 Anak Mirasing
