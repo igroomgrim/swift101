@@ -462,6 +462,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Research from : [Realm.io - RxSwift](https://realm.io/news/slug-max-alexander-functional-reactive-rxswift/)
   
 
+* **2016-01-01** - *Day 16*
+  * Network abstraction layer written in Swift 
+  * Research from : [Moya](https://github.com/Moya/Moya)
+
 ## Contact
  
 Anak Mirasing
