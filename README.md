@@ -466,6 +466,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Network abstraction layer written in Swift 
   * Research from : [Moya](https://github.com/Moya/Moya)
 
+* **2016-01-02** - *Day 15*
+  * The map algorithm returns a new array that contains the results of applying the rules in the closure to each element of the array.
+  * let applied = oldArray.map{ $0 / 10}
+
 ## Contact
  
 Anak Mirasing
