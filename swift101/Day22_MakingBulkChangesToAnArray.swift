@@ -50,4 +50,12 @@ class Day21_MakingBulkChangesToAnArray: NSObject {
         print(filtered)
         // filtered contain 6.. if the number is greater than 5 or less than 7; therefore, any number that is greater than 5 or less than 7 is included in the new filtered array.
     }
+    
+    // Day 15 - The map algorithm returns a new array that contains the results of applying the rules in the closure to each element of the array.
+    func mapArray() {
+        let oldArray = [10, 20, 30, 40, 50, 60, 70]
+        let applied = oldArray.map{ $0 / 10}
+        //applied contains 1,2,3,4,5,6,7
+        print(applied)
+    }
 }
