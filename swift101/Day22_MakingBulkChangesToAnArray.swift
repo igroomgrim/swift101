@@ -58,4 +58,12 @@ class Day21_MakingBulkChangesToAnArray: NSObject {
         //applied contains 1,2,3,4,5,6,7
         print(applied)
     }
+    
+    // Day 14 - The map algorithm(Array) part-2
+    func mapArrayWithString() {
+        let oldArray = [10, 20, 30, 40, 50, 60, 70]
+        let applied = oldArray.map{ "number is : \($0)" }
+        //applied contains "number is : 10", "number is : 20", ... "number is : 70"
+        print(applied)
+    }
 }
