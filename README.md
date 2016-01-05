@@ -470,6 +470,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * The map algorithm returns a new array that contains the results of applying the rules in the closure to each element of the array.
   * let applied = oldArray.map{ $0 / 10}
 
+* **2016-01-03** - *Day 14*
+  * The map algorithm(Array) part-2
+  * let applied = oldArray.map{ "number is : \($0)" }
+
 ## Contact
  
 Anak Mirasing
