@@ -66,4 +66,17 @@ class Day21_MakingBulkChangesToAnArray: NSObject {
         //applied contains "number is : 10", "number is : 20", ... "number is : 70"
         print(applied)
     }
+    
+    // Day 13 - enumerate method
+    func enumerateArray() {
+        let myArray = ["Peter", "Steve", "Parker"]
+        for (index,value) in myArray.enumerate() {
+            print("\(index) - \(value)")
+        }
+        // Result is
+        // 0 - Peter
+        // 1 - Steve
+        // 2 - Parker
+    }
+    
 }
