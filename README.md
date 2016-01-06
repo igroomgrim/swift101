@@ -474,6 +474,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * The map algorithm(Array) part-2
   * let applied = oldArray.map{ "number is : \($0)" }
 
+* **2016-01-04** - *Day 13*
+  * The enumerate method
+  * for (index,value) in myArray.enumerate() { print("\(index) - \(value)") }
+
 ## Contact
  
 Anak Mirasing
