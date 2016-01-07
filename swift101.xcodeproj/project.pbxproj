@@ -34,6 +34,7 @@
 		14E926EE1C1DDA33007F004C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E926ED1C1DDA33007F004C /* Security.framework */; };
 		14F2D5821BC8249700E1D6CF /* Day94_optional_chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F2D5811BC8249700E1D6CF /* Day94_optional_chaining.swift */; };
 		14F6F51F1BBC5C9400BD7AFC /* Day99_prototype_pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F6F51E1BBC5C9400BD7AFC /* Day99_prototype_pattern.swift */; };
+		14FEE8641C3EB60F00788DB9 /* Day12_CheckContainString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FEE8631C3EB60F00788DB9 /* Day12_CheckContainString.swift */; };
 		1CD4502EBFE6FE72DE199AFE /* Pods_swift101.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F64E38975E53634CE344E1 /* Pods_swift101.framework */; };
 		980B46391C0EA6050030A4AF /* Day46_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B46381C0EA6050030A4AF /* Day46_Extension.swift */; };
 /* End PBXBuildFile section */
@@ -90,6 +91,7 @@
 		14E926ED1C1DDA33007F004C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		14F2D5811BC8249700E1D6CF /* Day94_optional_chaining.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day94_optional_chaining.swift; sourceTree = "<group>"; };
 		14F6F51E1BBC5C9400BD7AFC /* Day99_prototype_pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day99_prototype_pattern.swift; sourceTree = "<group>"; };
+		14FEE8631C3EB60F00788DB9 /* Day12_CheckContainString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day12_CheckContainString.swift; sourceTree = "<group>"; };
 		867B4FAF32A1C35C9F3A2686 /* Pods-swift101.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift101.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift101/Pods-swift101.release.xcconfig"; sourceTree = "<group>"; };
 		980B46381C0EA6050030A4AF /* Day46_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day46_Extension.swift; sourceTree = "<group>"; };
 		AB9DAD876A18FA3260B52ECC /* Pods-swift101.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift101.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift101/Pods-swift101.debug.xcconfig"; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				14A467441BB867BA00EA2A12 /* Storyboard */,
 				14A467461BB867DB00EA2A12 /* Assets */,
 				14A467181BB8676400EA2A12 /* ViewController.swift */,
+				14FEE8631C3EB60F00788DB9 /* Day12_CheckContainString.swift */,
 				141CC26C1C32EC5100F8CB07 /* Day22_MakingBulkChangesToAnArray.swift */,
 				14CE27B51C3016EA00249832 /* Day23_CaseOfTheString.swift */,
 				14386DC21C2DA4A40023334A /* Day25_TypeAlias.swift */,
@@ -443,6 +446,7 @@
 				144B3F4F1BBF801C002B1C27 /* Day97_custom_extension.swift in Sources */,
 				14CE27B61C3016EA00249832 /* Day23_CaseOfTheString.swift in Sources */,
 				1463509F1C29ABEA0008373C /* Day27_Comments.swift in Sources */,
+				14FEE8641C3EB60F00788DB9 /* Day12_CheckContainString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
