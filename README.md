@@ -478,6 +478,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * The enumerate method
   * for (index,value) in myArray.enumerate() { print("\(index) - \(value)") }
 
+* **2016-01-05** - *Day 12*
+  * Check string contains another string
+  * mainString.containsString(checkString)
+
 ## Contact
  
 Anak Mirasing
