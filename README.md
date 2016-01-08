@@ -482,6 +482,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Check string contains another string
   * mainString.containsString(checkString)
 
+* **2016-01-06** - *Day 11*
+  * NSDate extension : begin of day and end of day
+  * NSDate().beginningOfDay
+  * NSDate().endOfDay
+
 ## Contact
  
 Anak Mirasing
