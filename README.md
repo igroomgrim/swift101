@@ -486,6 +486,7 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * NSDate extension : begin of day and end of day
   * NSDate().beginningOfDay
   * NSDate().endOfDay
+  * Research from : [stackoverflow](http://stackoverflow.com/questions/13324633/nsdate-beginning-of-day-and-end-of-day)
 
 ## Contact
  
