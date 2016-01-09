@@ -488,6 +488,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * NSDate().endOfDay
   * Research from : [stackoverflow](http://stackoverflow.com/questions/13324633/nsdate-beginning-of-day-and-end-of-day)
 
+* **2016-01-07** - *Day 10*
+  * Set : Generic collection in Swift
+  * Initializes, Insert, Remove, Count
+  * Research from : [Set in Swift](http://swiftdoc.org/v2.1/type/Set/)
+
 ## Contact
  
 Anak Mirasing
