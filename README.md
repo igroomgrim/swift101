@@ -493,6 +493,11 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Initializes, Insert, Remove, Count
   * Research from : [Set in Swift](http://swiftdoc.org/v2.1/type/Set/)
 
+* **2016-01-08** - *Day 9*
+  * Set : Operations
+  * Union, Subtract, Intersect, ExclusiveOr
+  * Research from : [Set in Swift](http://swiftdoc.org/v2.1/type/Set/)
+
 ## Contact
  
 Anak Mirasing
