@@ -35,4 +35,20 @@ func playSet() {
     // Remove first
     let firstItem = myStringSet.removeFirst()
     
+    // Day 9 - Set operations
+    var set1 = Set([1,2,3,])
+    var set2 = Set([3,4,5])
+    
+    // union and unionInPlace
+    let newUnionSet = set1.union(set2) // [1,2,3,4,5]
+    
+    
+    // subtract and subtractInPlace
+    let newSubtractSet = set1.subtract(set2) // [2,3]
+    
+    // intersect and intersectInPlace
+    let newIntersectSet = set1.intersect(set2) // [3]
+    
+    // exclusiveOr and exclusiveOrInPlace
+    let newExclusiveOrSet = set1.exclusiveOr(set2) // [1,2,4,5]
 }
