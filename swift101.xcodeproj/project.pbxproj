@@ -34,6 +34,7 @@
 		14D07A4A1BC4426E00821625 /* Day95_enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D07A491BC4426E00821625 /* Day95_enumerations.swift */; };
 		14DC16271C41683400EE7773 /* Day10_GenericCollection_Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC16261C41683400EE7773 /* Day10_GenericCollection_Set.swift */; };
 		14E926EE1C1DDA33007F004C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E926ED1C1DDA33007F004C /* Security.framework */; };
+		14EF67D21C440E2E00ECB2EA /* Day8_ForCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EF67D11C440E2E00ECB2EA /* Day8_ForCase.swift */; };
 		14F2D5821BC8249700E1D6CF /* Day94_optional_chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F2D5811BC8249700E1D6CF /* Day94_optional_chaining.swift */; };
 		14F6F51F1BBC5C9400BD7AFC /* Day99_prototype_pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F6F51E1BBC5C9400BD7AFC /* Day99_prototype_pattern.swift */; };
 		14FEE8641C3EB60F00788DB9 /* Day12_CheckContainString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FEE8631C3EB60F00788DB9 /* Day12_CheckContainString.swift */; };
@@ -93,6 +94,7 @@
 		14D07A491BC4426E00821625 /* Day95_enumerations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day95_enumerations.swift; sourceTree = "<group>"; };
 		14DC16261C41683400EE7773 /* Day10_GenericCollection_Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day10_GenericCollection_Set.swift; sourceTree = "<group>"; };
 		14E926ED1C1DDA33007F004C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		14EF67D11C440E2E00ECB2EA /* Day8_ForCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day8_ForCase.swift; sourceTree = "<group>"; };
 		14F2D5811BC8249700E1D6CF /* Day94_optional_chaining.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day94_optional_chaining.swift; sourceTree = "<group>"; };
 		14F6F51E1BBC5C9400BD7AFC /* Day99_prototype_pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day99_prototype_pattern.swift; sourceTree = "<group>"; };
 		14FEE8631C3EB60F00788DB9 /* Day12_CheckContainString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day12_CheckContainString.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				14A467441BB867BA00EA2A12 /* Storyboard */,
 				14A467461BB867DB00EA2A12 /* Assets */,
 				14A467181BB8676400EA2A12 /* ViewController.swift */,
+				14EF67D11C440E2E00ECB2EA /* Day8_ForCase.swift */,
 				14DC16261C41683400EE7773 /* Day10_GenericCollection_Set.swift */,
 				141F64B71C3FFEBC00AD5FEB /* Day11_BeginAndEndOfDayExtension.swift */,
 				14FEE8631C3EB60F00788DB9 /* Day12_CheckContainString.swift */,
@@ -431,6 +434,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				147F400D1C23089200358063 /* Day32_AFNetworking.swift in Sources */,
+				14EF67D21C440E2E00ECB2EA /* Day8_ForCase.swift in Sources */,
 				14F2D5821BC8249700E1D6CF /* Day94_optional_chaining.swift in Sources */,
 				146F6B381BCA9773006ACC30 /* Day93_tuples.swift in Sources */,
 				14CFDFF91C2B13420045C6B7 /* Day26_CheckString_Prefix_Suffix.swift in Sources */,
