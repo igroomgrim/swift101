@@ -498,6 +498,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Union, Subtract, Intersect, ExclusiveOr
   * Research from : [Set in Swift](http://swiftdoc.org/v2.1/type/Set/)
 
+* **2016-01-09** - *Day 8*
+  * Control-Flow 
+  * for-case, for-case with where statement
+
 ## Contact
  
 Anak Mirasing
