@@ -32,6 +32,7 @@
 		14CF0A091BB9A7CA00AAA350 /* Day100_object_template_pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF0A081BB9A7CA00AAA350 /* Day100_object_template_pattern.swift */; };
 		14CFDFF91C2B13420045C6B7 /* Day26_CheckString_Prefix_Suffix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CFDFF81C2B13420045C6B7 /* Day26_CheckString_Prefix_Suffix.swift */; };
 		14D07A4A1BC4426E00821625 /* Day95_enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D07A491BC4426E00821625 /* Day95_enumerations.swift */; };
+		14D529711C4553D000A5438E /* Day7_ContinueStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D529701C4553D000A5438E /* Day7_ContinueStatement.swift */; };
 		14DC16271C41683400EE7773 /* Day10_GenericCollection_Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC16261C41683400EE7773 /* Day10_GenericCollection_Set.swift */; };
 		14E926EE1C1DDA33007F004C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E926ED1C1DDA33007F004C /* Security.framework */; };
 		14EF67D21C440E2E00ECB2EA /* Day8_ForCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EF67D11C440E2E00ECB2EA /* Day8_ForCase.swift */; };
@@ -92,6 +93,7 @@
 		14CF0A081BB9A7CA00AAA350 /* Day100_object_template_pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day100_object_template_pattern.swift; sourceTree = "<group>"; };
 		14CFDFF81C2B13420045C6B7 /* Day26_CheckString_Prefix_Suffix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day26_CheckString_Prefix_Suffix.swift; sourceTree = "<group>"; };
 		14D07A491BC4426E00821625 /* Day95_enumerations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day95_enumerations.swift; sourceTree = "<group>"; };
+		14D529701C4553D000A5438E /* Day7_ContinueStatement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day7_ContinueStatement.swift; sourceTree = "<group>"; };
 		14DC16261C41683400EE7773 /* Day10_GenericCollection_Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day10_GenericCollection_Set.swift; sourceTree = "<group>"; };
 		14E926ED1C1DDA33007F004C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		14EF67D11C440E2E00ECB2EA /* Day8_ForCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day8_ForCase.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				14A467441BB867BA00EA2A12 /* Storyboard */,
 				14A467461BB867DB00EA2A12 /* Assets */,
 				14A467181BB8676400EA2A12 /* ViewController.swift */,
+				14D529701C4553D000A5438E /* Day7_ContinueStatement.swift */,
 				14EF67D11C440E2E00ECB2EA /* Day8_ForCase.swift */,
 				14DC16261C41683400EE7773 /* Day10_GenericCollection_Set.swift */,
 				141F64B71C3FFEBC00AD5FEB /* Day11_BeginAndEndOfDayExtension.swift */,
@@ -439,6 +442,7 @@
 				146F6B381BCA9773006ACC30 /* Day93_tuples.swift in Sources */,
 				14CFDFF91C2B13420045C6B7 /* Day26_CheckString_Prefix_Suffix.swift in Sources */,
 				14CF0A091BB9A7CA00AAA350 /* Day100_object_template_pattern.swift in Sources */,
+				14D529711C4553D000A5438E /* Day7_ContinueStatement.swift in Sources */,
 				14A467191BB8676400EA2A12 /* ViewController.swift in Sources */,
 				141F64B81C3FFEBC00AD5FEB /* Day11_BeginAndEndOfDayExtension.swift in Sources */,
 				147F8A771C08BBC500FC1184 /* Day50_snapkit_part2.swift in Sources */,
