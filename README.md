@@ -502,6 +502,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Control-Flow 
   * for-case, for-case with where statement
 
+* **2016-01-10** - *Day 7*
+  * Control-Flow 
+  * Continue and Break statement
+
 ## Contact
  
 Anak Mirasing
