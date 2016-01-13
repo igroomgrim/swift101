@@ -506,6 +506,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Control-Flow 
   * Continue and Break statement
 
+* **2016-01-11** - *Day 6*
+  * Control-Flow 
+  * Guard statement
+
 ## Contact
  
 Anak Mirasing
