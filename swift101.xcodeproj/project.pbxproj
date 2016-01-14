@@ -27,6 +27,7 @@
 		14A4672C1BB8676400EA2A12 /* swift101Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A4672B1BB8676400EA2A12 /* swift101Tests.swift */; };
 		14A467371BB8676400EA2A12 /* swift101UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A467361BB8676400EA2A12 /* swift101UITests.swift */; };
 		14A467481BB8697800EA2A12 /* Day101_reduce_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A467471BB8697800EA2A12 /* Day101_reduce_extension.swift */; };
+		14AD30131C47C466007F5B64 /* Day5_Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD30121C47C466007F5B64 /* Day5_Protocol.swift */; };
 		14CAE3A91BBDB29900ED6A26 /* Day98_singleton_pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CAE3A81BBDB29900ED6A26 /* Day98_singleton_pattern.swift */; };
 		14CE27B61C3016EA00249832 /* Day23_CaseOfTheString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CE27B51C3016EA00249832 /* Day23_CaseOfTheString.swift */; };
 		14CF0A091BB9A7CA00AAA350 /* Day100_object_template_pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF0A081BB9A7CA00AAA350 /* Day100_object_template_pattern.swift */; };
@@ -89,6 +90,7 @@
 		14A467361BB8676400EA2A12 /* swift101UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift101UITests.swift; sourceTree = "<group>"; };
 		14A467381BB8676400EA2A12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14A467471BB8697800EA2A12 /* Day101_reduce_extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day101_reduce_extension.swift; sourceTree = "<group>"; };
+		14AD30121C47C466007F5B64 /* Day5_Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day5_Protocol.swift; sourceTree = "<group>"; };
 		14CAE3A81BBDB29900ED6A26 /* Day98_singleton_pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day98_singleton_pattern.swift; sourceTree = "<group>"; };
 		14CE27B51C3016EA00249832 /* Day23_CaseOfTheString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day23_CaseOfTheString.swift; sourceTree = "<group>"; };
 		14CF0A081BB9A7CA00AAA350 /* Day100_object_template_pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day100_object_template_pattern.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				14A467441BB867BA00EA2A12 /* Storyboard */,
 				14A467461BB867DB00EA2A12 /* Assets */,
 				14A467181BB8676400EA2A12 /* ViewController.swift */,
+				14AD30121C47C466007F5B64 /* Day5_Protocol.swift */,
 				14E1DEDC1C46B3A40017DAFA /* Day6_GuardStatement.swift */,
 				14D529701C4553D000A5438E /* Day7_ContinueStatement.swift */,
 				14EF67D11C440E2E00ECB2EA /* Day8_ForCase.swift */,
@@ -452,6 +455,7 @@
 				140BDDC11C09BC4A00995A7F /* Day49_snapkit_part3.swift in Sources */,
 				14A467481BB8697800EA2A12 /* Day101_reduce_extension.swift in Sources */,
 				141CC26D1C32EC5100F8CB07 /* Day22_MakingBulkChangesToAnArray.swift in Sources */,
+				14AD30131C47C466007F5B64 /* Day5_Protocol.swift in Sources */,
 				1468E90D1C1349ED003C0077 /* SafariViewController.swift in Sources */,
 				148B11791BC189FB001127AD /* Day96_closures.swift in Sources */,
 				14892C5C1C1DD7D0006BA636 /* Day36_SSKeychain.swift in Sources */,
