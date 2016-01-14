@@ -510,6 +510,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Control-Flow 
   * Guard statement
 
+* **2016-01-12** - *Day 5*
+  * Protocol in Swift 
+  * Research from : [Protocol](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Protocols.html)
+
 ## Contact
  
 Anak Mirasing
