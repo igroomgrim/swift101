@@ -23,3 +23,37 @@ class SuperCar: Car {
         print("Born to be Drift KING!")
     }
 }
+
+// Day 4 - Optional Protocols
+@objc protocol Motorcycle {
+    func Accelerate()
+    func EngineBreak()
+    optional func Wheelie()
+}
+
+class Ducati: Motorcycle {
+    
+    @objc func Accelerate() {
+        print("GO GO FAST!!!")
+    }
+    
+    @objc func EngineBreak() {
+        print("Safe your self!!")
+    }
+    
+    @objc func Wheelie() {
+        print("STUN SHOW")
+    }
+}
+
+class Yamaha: Motorcycle {
+    
+    @objc func Accelerate() {
+        print("GO GO FAST!!!")
+    }
+    
+    @objc func EngineBreak() {
+        print("Safe your self!!")
+    }
+}
+
