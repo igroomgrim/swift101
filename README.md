@@ -522,6 +522,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Delegation in Swift 
   * Research from : [Protocol](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Protocols.html)
 
+* **2016-01-15** - *Day 2*
+  * Protocol Inheritance in Swift
+  * Research from : [Protocol](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Protocols.html)
+
 ## Contact
  
 Anak Mirasing
