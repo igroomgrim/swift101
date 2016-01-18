@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		140BDDC11C09BC4A00995A7F /* Day49_snapkit_part3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140BDDC01C09BC4A00995A7F /* Day49_snapkit_part3.swift */; };
+		1414F8FA1C4D3BB000C1B199 /* Day1_HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1414F8F91C4D3BB000C1B199 /* Day1_HelloWorld.swift */; };
 		141CC26D1C32EC5100F8CB07 /* Day22_MakingBulkChangesToAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141CC26C1C32EC5100F8CB07 /* Day22_MakingBulkChangesToAnArray.swift */; };
 		141F64B81C3FFEBC00AD5FEB /* Day11_BeginAndEndOfDayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141F64B71C3FFEBC00AD5FEB /* Day11_BeginAndEndOfDayExtension.swift */; };
 		14386DC31C2DA4A40023334A /* Day25_TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14386DC21C2DA4A40023334A /* Day25_TypeAlias.swift */; };
@@ -65,6 +66,7 @@
 
 /* Begin PBXFileReference section */
 		140BDDC01C09BC4A00995A7F /* Day49_snapkit_part3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day49_snapkit_part3.swift; sourceTree = "<group>"; };
+		1414F8F91C4D3BB000C1B199 /* Day1_HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1_HelloWorld.swift; sourceTree = "<group>"; };
 		141CC26C1C32EC5100F8CB07 /* Day22_MakingBulkChangesToAnArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day22_MakingBulkChangesToAnArray.swift; sourceTree = "<group>"; };
 		141F64B71C3FFEBC00AD5FEB /* Day11_BeginAndEndOfDayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day11_BeginAndEndOfDayExtension.swift; sourceTree = "<group>"; };
 		14386DC21C2DA4A40023334A /* Day25_TypeAlias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day25_TypeAlias.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				14A467441BB867BA00EA2A12 /* Storyboard */,
 				14A467461BB867DB00EA2A12 /* Assets */,
 				14A467181BB8676400EA2A12 /* ViewController.swift */,
+				1414F8F91C4D3BB000C1B199 /* Day1_HelloWorld.swift */,
 				144A0A611C4BE2E900CE7CF9 /* Day2_Protocol_Inheritance.swift */,
 				14AD30121C47C466007F5B64 /* Day5_Protocol.swift */,
 				14E1DEDC1C46B3A40017DAFA /* Day6_GuardStatement.swift */,
@@ -465,6 +468,7 @@
 				14892C5C1C1DD7D0006BA636 /* Day36_SSKeychain.swift in Sources */,
 				14A467171BB8676400EA2A12 /* AppDelegate.swift in Sources */,
 				14CAE3A91BBDB29900ED6A26 /* Day98_singleton_pattern.swift in Sources */,
+				1414F8FA1C4D3BB000C1B199 /* Day1_HelloWorld.swift in Sources */,
 				980B46391C0EA6050030A4AF /* Day46_Extension.swift in Sources */,
 				14E1DEDD1C46B3A40017DAFA /* Day6_GuardStatement.swift in Sources */,
 				14F6F51F1BBC5C9400BD7AFC /* Day99_prototype_pattern.swift in Sources */,
