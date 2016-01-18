@@ -526,6 +526,10 @@ Just play with swift in 101 days. Yep, My goal in this project is to wanna try c
   * Protocol Inheritance in Swift
   * Research from : [Protocol](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Protocols.html)
 
+* **2016-01-16** - *Day 1*
+  * Hello World
+
+
 ## Contact
  
 Anak Mirasing
